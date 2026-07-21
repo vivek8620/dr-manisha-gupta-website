@@ -1,0 +1,282 @@
+
+================================================================================
+[2026-07-08 09:09:35.000000] SMTP Email Log - ADMIN
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: FAILED ✗
+Error: SMTP connection failed: 
+
+--- SMTP TRANSCRIPT ---
+[ERROR] SMTP connection failed: 
+
+
+================================================================================
+[2026-07-08 09:09:35.000000] SMTP Email Log - VISITOR
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: FAILED ✗
+Error: Skipped - Admin email failed first
+
+--- SMTP TRANSCRIPT ---
+
+
+================================================================================
+[2026-07-08 09:14:12.000000] SMTP Email Log - ADMIN
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: FAILED ✗
+Error: SMTP connection failed: 
+
+--- SMTP TRANSCRIPT ---
+[ERROR] SMTP connection failed: 
+
+
+================================================================================
+[2026-07-08 09:14:12.000000] SMTP Email Log - VISITOR
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: FAILED ✗
+Error: Skipped - Admin email failed first
+
+--- SMTP TRANSCRIPT ---
+
+
+================================================================================
+[2026-07-08 09:15:02.000000] SMTP Email Log - ADMIN
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: FAILED ✗
+Error: SMTP message send failed: 550 Request failed; Mailbox unavailable
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] 220 smtp.mail.yahoo.com ESMTP ready
+[COMMAND] [SMTP EHLO] EHLO localhost
+[RESPONSE] 250-hermes--production-sg3-847cd67bd4-chfjf Hello localhost [49.249.21.134])
+[RESPONSE] 250-PIPELINING
+[RESPONSE] 250-ENHANCEDSTATUSCODES
+[RESPONSE] 250-8BITMIME
+[RESPONSE] 250-SIZE 41697280
+[RESPONSE] 250 STARTTLS
+[COMMAND] [SMTP STARTTLS] STARTTLS
+[RESPONSE] 220 2.0.0 Ready to start TLS
+[COMMAND] [SMTP EHLO after STARTTLS] EHLO localhost
+[RESPONSE] 250-hermes--production-sg3-847cd67bd4-chfjf Hello localhost [49.249.21.134])
+[RESPONSE] 250-PIPELINING
+[RESPONSE] 250-ENHANCEDSTATUSCODES
+[RESPONSE] 250-8BITMIME
+[RESPONSE] 250-SIZE 41697280
+[RESPONSE] 250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[COMMAND] [SMTP auth] AUTH LOGIN
+[RESPONSE] 334 VXNlcm5hbWU6
+[COMMAND] [SMTP username] bWFuaXNoYV9ndXB0YXVzQHlhaG9vLmNvbQ==
+[RESPONSE] 334 UGFzc3dvcmQ6
+[COMMAND] [SMTP password] Ym95YXhweXR6ZmlobWdkeQ==
+[RESPONSE] 235 2.7.0 Authentication successful
+[COMMAND] [SMTP sender] MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[COMMAND] [SMTP recipient] RCPT TO:<manisha_guptaus@yahoo.com>
+[RESPONSE] 250 2.1.5 Recipient <manisha_guptaus@yahoo.com> OK
+[COMMAND] [SMTP data] DATA
+[RESPONSE] 354 Ok Send data ending with <CRLF>.<CRLF>
+[DATA_START] Subject: New contact enquiry: Appointment Booking, To: manisha_guptaus@yahoo.com, From: manisha_guptaus@yahoo.com
+[RESPONSE] 550 Request failed; Mailbox unavailable
+[FAILURE] [SMTP message send] Expected: 250 | Got: 550 | Message: 550 Request failed; Mailbox unavailable
+
+
+================================================================================
+[2026-07-08 09:15:02.000000] SMTP Email Log - VISITOR
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: FAILED ✗
+Error: Skipped - Admin email failed first
+
+--- SMTP TRANSCRIPT ---
+
+
+================================================================================
+[2026-07-08 09:15:28.000000] SMTP Email Log - ADMIN
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: FAILED ✗
+Error: SMTP connection failed: 
+
+--- SMTP TRANSCRIPT ---
+[ERROR] SMTP connection failed: 
+
+
+================================================================================
+[2026-07-08 09:15:28.000000] SMTP Email Log - VISITOR
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: FAILED ✗
+Error: Skipped - Admin email failed first
+
+--- SMTP TRANSCRIPT ---
+
+
+================================================================================
+[2026-07-08 09:16:00.000000] SMTP Email Log - ADMIN
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: FAILED ✗
+Error: SMTP connection failed: 
+
+--- SMTP TRANSCRIPT ---
+[ERROR] SMTP connection failed: 
+
+
+================================================================================
+[2026-07-08 09:16:00.000000] SMTP Email Log - VISITOR
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: FAILED ✗
+Error: Skipped - Admin email failed first
+
+--- SMTP TRANSCRIPT ---
+
+
+================================================================================
+[2026-07-08 09:17:52.000000] SMTP Email Log - ADMIN
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: FAILED ✗
+Error: SMTP message send failed: 550 Request failed; Mailbox unavailable
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] 220 smtp.mail.yahoo.com ESMTP ready
+[COMMAND] [SMTP EHLO] EHLO localhost
+[RESPONSE] 250-hermes--production-sg3-847cd67bd4-fxcml Hello localhost [49.249.21.134])
+[RESPONSE] 250-PIPELINING
+[RESPONSE] 250-ENHANCEDSTATUSCODES
+[RESPONSE] 250-8BITMIME
+[RESPONSE] 250-SIZE 41697280
+[RESPONSE] 250 STARTTLS
+[COMMAND] [SMTP STARTTLS] STARTTLS
+[RESPONSE] 220 2.0.0 Ready to start TLS
+[COMMAND] [SMTP EHLO after STARTTLS] EHLO localhost
+[RESPONSE] 250-hermes--production-sg3-847cd67bd4-fxcml Hello localhost [49.249.21.134])
+[RESPONSE] 250-PIPELINING
+[RESPONSE] 250-ENHANCEDSTATUSCODES
+[RESPONSE] 250-8BITMIME
+[RESPONSE] 250-SIZE 41697280
+[RESPONSE] 250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[COMMAND] [SMTP auth] AUTH LOGIN
+[RESPONSE] 334 VXNlcm5hbWU6
+[COMMAND] [SMTP username] bWFuaXNoYV9ndXB0YXVzQHlhaG9vLmNvbQ==
+[RESPONSE] 334 UGFzc3dvcmQ6
+[COMMAND] [SMTP password] Ym95YXhweXR6ZmlobWdkeQ==
+[RESPONSE] 235 2.7.0 Authentication successful
+[COMMAND] [SMTP sender] MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[COMMAND] [SMTP recipient] RCPT TO:<manisha_guptaus@yahoo.com>
+[RESPONSE] 250 2.1.5 Recipient <manisha_guptaus@yahoo.com> OK
+[COMMAND] [SMTP data] DATA
+[RESPONSE] 354 Ok Send data ending with <CRLF>.<CRLF>
+[DATA_START] Subject: New contact enquiry: Appointment Booking, To: manisha_guptaus@yahoo.com, From: manisha_guptaus@yahoo.com
+[RESPONSE] 550 Request failed; Mailbox unavailable
+[FAILURE] [SMTP message send] Expected: 250 | Got: 550 | Message: 550 Request failed; Mailbox unavailable
+
+
+================================================================================
+[2026-07-08 09:17:52.000000] SMTP Email Log - VISITOR
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: FAILED ✗
+Error: Skipped - Admin email failed first
+
+--- SMTP TRANSCRIPT ---
+
+
+================================================================================
+[2026-07-08 09:17:58.000000] SMTP Email Log - ADMIN
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: FAILED ✗
+Error: SMTP message send failed: 550 Request failed; Mailbox unavailable
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] 220 smtp.mail.yahoo.com ESMTP ready
+[COMMAND] [SMTP EHLO] EHLO localhost
+[RESPONSE] 250-hermes--production-sg3-847cd67bd4-p9ltn Hello localhost [49.249.21.134])
+[RESPONSE] 250-PIPELINING
+[RESPONSE] 250-ENHANCEDSTATUSCODES
+[RESPONSE] 250-8BITMIME
+[RESPONSE] 250-SIZE 41697280
+[RESPONSE] 250 STARTTLS
+[COMMAND] [SMTP STARTTLS] STARTTLS
+[RESPONSE] 220 2.0.0 Ready to start TLS
+[COMMAND] [SMTP EHLO after STARTTLS] EHLO localhost
+[RESPONSE] 250-hermes--production-sg3-847cd67bd4-p9ltn Hello localhost [49.249.21.134])
+[RESPONSE] 250-PIPELINING
+[RESPONSE] 250-ENHANCEDSTATUSCODES
+[RESPONSE] 250-8BITMIME
+[RESPONSE] 250-SIZE 41697280
+[RESPONSE] 250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[COMMAND] [SMTP auth] AUTH LOGIN
+[RESPONSE] 334 VXNlcm5hbWU6
+[COMMAND] [SMTP username] bWFuaXNoYV9ndXB0YXVzQHlhaG9vLmNvbQ==
+[RESPONSE] 334 UGFzc3dvcmQ6
+[COMMAND] [SMTP password] Ym95YXhweXR6ZmlobWdkeQ==
+[RESPONSE] 235 2.7.0 Authentication successful
+[COMMAND] [SMTP sender] MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[COMMAND] [SMTP recipient] RCPT TO:<manisha_guptaus@yahoo.com>
+[RESPONSE] 250 2.1.5 Recipient <manisha_guptaus@yahoo.com> OK
+[COMMAND] [SMTP data] DATA
+[RESPONSE] 354 Ok Send data ending with <CRLF>.<CRLF>
+[DATA_START] Subject: New contact enquiry: Appointment Booking, To: manisha_guptaus@yahoo.com, From: manisha_guptaus@yahoo.com
+[RESPONSE] 550 Request failed; Mailbox unavailable
+[FAILURE] [SMTP message send] Expected: 250 | Got: 550 | Message: 550 Request failed; Mailbox unavailable
+
+
+================================================================================
+[2026-07-08 09:17:58.000000] SMTP Email Log - VISITOR
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: FAILED ✗
+Error: Skipped - Admin email failed first
+
+--- SMTP TRANSCRIPT ---
+
+
+================================================================================
+[2026-07-08 09:28:30.000000] SMTP Email Log - ADMIN
+================================================================================
+Recipient: test@yahoo.com
+Status: FAILED ✗
+Error: SMTP connection failed: 
+
+--- SMTP TRANSCRIPT ---
+[ERROR] SMTP connection failed: 
+
+
+================================================================================
+[2026-07-08 09:28:30.000000] SMTP Email Log - VISITOR
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: FAILED ✗
+Error: Skipped - Admin email failed first
+
+--- SMTP TRANSCRIPT ---
+
+
+================================================================================
+[2026-07-08 09:37:43.000000] SMTP Email Log - ADMIN
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: FAILED ✗
+Error: SMTP connection failed: 
+
+--- SMTP TRANSCRIPT ---
+[ERROR] SMTP connection failed: 
+
+
+================================================================================
+[2026-07-08 09:37:43.000000] SMTP Email Log - VISITOR
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: FAILED ✗
+Error: Skipped - Admin email failed first
+
+--- SMTP TRANSCRIPT ---
+

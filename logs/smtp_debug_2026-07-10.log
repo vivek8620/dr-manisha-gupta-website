@@ -1,0 +1,2113 @@
+
+================================================================================
+[2026-07-10 07:45:09.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: FAILED ✗
+Error: SMTP Error: data not accepted. SMTP server error: DATA END command failed Detail: Request failed; Mailbox unavailable
+ SMTP code: 550
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO localhost
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-p69ch Hello localhost [152.59.88.74])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO localhost
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-p69ch Hello localhost [152.59.88.74])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 07:45:04 +0200
+[RESPONSE] CLIENT -> SERVER: To: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Reply-To: Antigravity Test <tvivek2021@gmail.com>
+[RESPONSE] CLIENT -> SERVER: Subject: New contact enquiry: Consultation - Diabetes
+[RESPONSE] CLIENT -> SERVER: Message-ID: <P8lyQCm2r4j0Rw6Cp4ik1Y5llzxRO4Lhwyia47eWR6o@localhost>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_P8lyQCm2r4j0Rw6Cp4ik1Y5llzxRO4Lhwyia47eWR6o"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_P8lyQCm2r4j0Rw6Cp4ik1Y5llzxRO4Lhwyia47eWR6o
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: New contact enquiry received:
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Name: Antigravity Test
+[RESPONSE] CLIENT -> SERVER: Email: tvivek2021@gmail.com
+[RESPONSE] CLIENT -> SERVER: Phone: 9876543210
+[RESPONSE] CLIENT -> SERVER: Subject: Consultation - Diabetes
+[RESPONSE] CLIENT -> SERVER: Submitted: 10 Jul 2026, 07:45 AM
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Message:
+[RESPONSE] CLIENT -> SERVER: Final test of Yahoo SMTP using PHPMailer
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_P8lyQCm2r4j0Rw6Cp4ik1Y5llzxRO4Lhwyia47eWR6o
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:28px 32px;color:#ffffff;"><div style=3D"font=
+[RESPONSE] CLIENT -> SERVER: -size:13px;letter-spacing:1.8px;text-transform:uppercase;color:#7dd3fc;font=
+[RESPONSE] CLIENT -> SERVER: -weight:700;">New Enquiry</div><h1 style=3D"margin:8px 0 0;font-size:26px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.25;font-weight:700;">Contact form submission</h1><p style=3D"m=
+[RESPONSE] CLIENT -> SERVER: argin:10px 0 0;color:#dff7fb;font-size:15px;">Dr. Manisha Gupta website</p>=
+[RESPONSE] CLIENT -> SERVER: </td></tr><tr><td style=3D"padding:28px 32px;"><p style=3D"margin:0 0 20px;=
+[RESPONSE] CLIENT -> SERVER: font-size:16px;line-height:1.6;color:#334155;">A new patient/contact enquir=
+[RESPONSE] CLIENT -> SERVER: y has been submitted from the website.</p><table role=3D"presentation" widt=
+[RESPONSE] CLIENT -> SERVER: h=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:col=
+[RESPONSE] CLIENT -> SERVER: lapse;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;"><tr><td=
+[RESPONSE] CLIENT -> SERVER:  style=3D"padding:14px 16px;background:#f8fafc;width:140px;font-weight:700;=
+[RESPONSE] CLIENT -> SERVER: color:#0f172a;border-bottom:1px solid #e2e8f0;">Name</td><td style=3D"paddi=
+[RESPONSE] CLIENT -> SERVER: ng:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;">Antigravity Te=
+[RESPONSE] CLIENT -> SERVER: st</td></tr><tr><td style=3D"padding:14px 16px;background:#f8fafc;font-weig=
+[RESPONSE] CLIENT -> SERVER: ht:700;color:#0f172a;border-bottom:1px solid #e2e8f0;">Email</td><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"padding:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;"><a hr=
+[RESPONSE] CLIENT -> SERVER: ef=3D"mailto:tvivek2021@gmail.com" style=3D"color:#0284c7;text-decoration:n=
+[RESPONSE] CLIENT -> SERVER: one;">tvivek2021@gmail.com</a></td></tr><tr><td style=3D"padding:14px 16px;=
+[RESPONSE] CLIENT -> SERVER: background:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px solid #e=
+[RESPONSE] CLIENT -> SERVER: 2e8f0;">Phone</td><td style=3D"padding:14px 16px;border-bottom:1px solid #e=
+[RESPONSE] CLIENT -> SERVER: 2e8f0;color:#334155;"><a href=3D"tel:9876543210" style=3D"color:#0284c7;tex=
+[RESPONSE] CLIENT -> SERVER: t-decoration:none;">9876543210</a></td></tr><tr><td style=3D"padding:14px 1=
+[RESPONSE] CLIENT -> SERVER: 6px;background:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px soli=
+[RESPONSE] CLIENT -> SERVER: d #e2e8f0;">Subject</td><td style=3D"padding:14px 16px;border-bottom:1px so=
+[RESPONSE] CLIENT -> SERVER: lid #e2e8f0;color:#334155;">Consultation - Diabetes</td></tr><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"padding:14px 16px;background:#f8fafc;font-weight:700;color:#0f172a;">Su=
+[RESPONSE] CLIENT -> SERVER: bmitted</td><td style=3D"padding:14px 16px;color:#334155;">10 Jul 2026, 07:=
+[RESPONSE] CLIENT -> SERVER: 45 AM</td></tr></table><div style=3D"margin-top:22px;padding:18px 20px;back=
+[RESPONSE] CLIENT -> SERVER: ground:#f8fafc;border-left:4px solid #0eadae;border-radius:12px;"><div styl=
+[RESPONSE] CLIENT -> SERVER: e=3D"font-weight:700;color:#0f172a;margin-bottom:8px;">Message</div><div st=
+[RESPONSE] CLIENT -> SERVER: yle=3D"font-size:15px;line-height:1.7;color:#334155;">Final test of Yahoo S=
+[RESPONSE] CLIENT -> SERVER: MTP using PHPMailer</div></div><p style=3D"margin:22px 0 0;font-size:13px;c=
+[RESPONSE] CLIENT -> SERVER: olor:#64748b;">You can reply directly to this email to contact the sender.<=
+[RESPONSE] CLIENT -> SERVER: /p></td></tr><tr><td style=3D"background:#f8fafc;padding:18px 32px;color:#6=
+[RESPONSE] CLIENT -> SERVER: 4748b;font-size:12px;text-align:center;border-top:1px solid #e2e8f0;">Dr. M=
+[RESPONSE] CLIENT -> SERVER: anisha Gupta | Website Contact Notification</td></tr></table></td></tr></ta=
+[RESPONSE] CLIENT -> SERVER: ble></body></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_P8lyQCm2r4j0Rw6Cp4ik1Y5llzxRO4Lhwyia47eWR6o--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 550 Request failed; Mailbox unavailable
+[RESPONSE] SMTP ERROR: DATA END command failed: 550 Request failed; Mailbox unavailable
+[RESPONSE] SMTP Error: data not accepted.
+[ERROR] SMTP Error: data not accepted. SMTP server error: DATA END command failed Detail: Request failed; Mailbox unavailable
+ SMTP code: 550
+
+
+================================================================================
+[2026-07-10 07:47:41.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: FAILED ✗
+Error: SMTP Error: data not accepted. SMTP server error: DATA END command failed Detail: Request failed; Mailbox unavailable
+ SMTP code: 550
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-lj5g7 Hello yahoo.com [152.59.88.74])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-lj5g7 Hello yahoo.com [152.59.88.74])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 07:47:37 +0200
+[RESPONSE] CLIENT -> SERVER: To: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Reply-To: Antigravity Test 2 <tvivek2021@gmail.com>
+[RESPONSE] CLIENT -> SERVER: Subject: New contact enquiry: Consultation - Diabetes
+[RESPONSE] CLIENT -> SERVER: Message-ID: <n3H3Y6zkNegxfAcZJoD3915iluIGWh0OVu5NlECqgY@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_n3H3Y6zkNegxfAcZJoD3915iluIGWh0OVu5NlECqgY"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_n3H3Y6zkNegxfAcZJoD3915iluIGWh0OVu5NlECqgY
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: New contact enquiry received:
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Name: Antigravity Test 2
+[RESPONSE] CLIENT -> SERVER: Email: tvivek2021@gmail.com
+[RESPONSE] CLIENT -> SERVER: Phone: 9876543210
+[RESPONSE] CLIENT -> SERVER: Subject: Consultation - Diabetes
+[RESPONSE] CLIENT -> SERVER: Submitted: 10 Jul 2026, 07:47 AM
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Message:
+[RESPONSE] CLIENT -> SERVER: Final test after setting Yahoo hostname
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_n3H3Y6zkNegxfAcZJoD3915iluIGWh0OVu5NlECqgY
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:28px 32px;color:#ffffff;"><div style=3D"font=
+[RESPONSE] CLIENT -> SERVER: -size:13px;letter-spacing:1.8px;text-transform:uppercase;color:#7dd3fc;font=
+[RESPONSE] CLIENT -> SERVER: -weight:700;">New Enquiry</div><h1 style=3D"margin:8px 0 0;font-size:26px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.25;font-weight:700;">Contact form submission</h1><p style=3D"m=
+[RESPONSE] CLIENT -> SERVER: argin:10px 0 0;color:#dff7fb;font-size:15px;">Dr. Manisha Gupta website</p>=
+[RESPONSE] CLIENT -> SERVER: </td></tr><tr><td style=3D"padding:28px 32px;"><p style=3D"margin:0 0 20px;=
+[RESPONSE] CLIENT -> SERVER: font-size:16px;line-height:1.6;color:#334155;">A new patient/contact enquir=
+[RESPONSE] CLIENT -> SERVER: y has been submitted from the website.</p><table role=3D"presentation" widt=
+[RESPONSE] CLIENT -> SERVER: h=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:col=
+[RESPONSE] CLIENT -> SERVER: lapse;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;"><tr><td=
+[RESPONSE] CLIENT -> SERVER:  style=3D"padding:14px 16px;background:#f8fafc;width:140px;font-weight:700;=
+[RESPONSE] CLIENT -> SERVER: color:#0f172a;border-bottom:1px solid #e2e8f0;">Name</td><td style=3D"paddi=
+[RESPONSE] CLIENT -> SERVER: ng:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;">Antigravity Te=
+[RESPONSE] CLIENT -> SERVER: st 2</td></tr><tr><td style=3D"padding:14px 16px;background:#f8fafc;font-we=
+[RESPONSE] CLIENT -> SERVER: ight:700;color:#0f172a;border-bottom:1px solid #e2e8f0;">Email</td><td styl=
+[RESPONSE] CLIENT -> SERVER: e=3D"padding:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;"><a h=
+[RESPONSE] CLIENT -> SERVER: ref=3D"mailto:tvivek2021@gmail.com" style=3D"color:#0284c7;text-decoration:=
+[RESPONSE] CLIENT -> SERVER: none;">tvivek2021@gmail.com</a></td></tr><tr><td style=3D"padding:14px 16px=
+[RESPONSE] CLIENT -> SERVER: ;background:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px solid #=
+[RESPONSE] CLIENT -> SERVER: e2e8f0;">Phone</td><td style=3D"padding:14px 16px;border-bottom:1px solid #=
+[RESPONSE] CLIENT -> SERVER: e2e8f0;color:#334155;"><a href=3D"tel:9876543210" style=3D"color:#0284c7;te=
+[RESPONSE] CLIENT -> SERVER: xt-decoration:none;">9876543210</a></td></tr><tr><td style=3D"padding:14px =
+[RESPONSE] CLIENT -> SERVER: 16px;background:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px sol=
+[RESPONSE] CLIENT -> SERVER: id #e2e8f0;">Subject</td><td style=3D"padding:14px 16px;border-bottom:1px s=
+[RESPONSE] CLIENT -> SERVER: olid #e2e8f0;color:#334155;">Consultation - Diabetes</td></tr><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"padding:14px 16px;background:#f8fafc;font-weight:700;color:#0f172a;">Su=
+[RESPONSE] CLIENT -> SERVER: bmitted</td><td style=3D"padding:14px 16px;color:#334155;">10 Jul 2026, 07:=
+[RESPONSE] CLIENT -> SERVER: 47 AM</td></tr></table><div style=3D"margin-top:22px;padding:18px 20px;back=
+[RESPONSE] CLIENT -> SERVER: ground:#f8fafc;border-left:4px solid #0eadae;border-radius:12px;"><div styl=
+[RESPONSE] CLIENT -> SERVER: e=3D"font-weight:700;color:#0f172a;margin-bottom:8px;">Message</div><div st=
+[RESPONSE] CLIENT -> SERVER: yle=3D"font-size:15px;line-height:1.7;color:#334155;">Final test after sett=
+[RESPONSE] CLIENT -> SERVER: ing Yahoo hostname</div></div><p style=3D"margin:22px 0 0;font-size:13px;co=
+[RESPONSE] CLIENT -> SERVER: lor:#64748b;">You can reply directly to this email to contact the sender.</=
+[RESPONSE] CLIENT -> SERVER: p></td></tr><tr><td style=3D"background:#f8fafc;padding:18px 32px;color:#64=
+[RESPONSE] CLIENT -> SERVER: 748b;font-size:12px;text-align:center;border-top:1px solid #e2e8f0;">Dr. Ma=
+[RESPONSE] CLIENT -> SERVER: nisha Gupta | Website Contact Notification</td></tr></table></td></tr></tab=
+[RESPONSE] CLIENT -> SERVER: le></body></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_n3H3Y6zkNegxfAcZJoD3915iluIGWh0OVu5NlECqgY--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 550 Request failed; Mailbox unavailable
+[RESPONSE] SMTP ERROR: DATA END command failed: 550 Request failed; Mailbox unavailable
+[RESPONSE] SMTP Error: data not accepted.
+[ERROR] SMTP Error: data not accepted. SMTP server error: DATA END command failed Detail: Request failed; Mailbox unavailable
+ SMTP code: 550
+
+
+================================================================================
+[2026-07-10 07:51:55.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-fp5qt Hello yahoo.com [152.59.88.74])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-fp5qt Hello yahoo.com [152.59.88.74])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 07:51:49 +0200
+[RESPONSE] CLIENT -> SERVER: To: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: New contact enquiry: Consultation - Diabetes
+[RESPONSE] CLIENT -> SERVER: Message-ID: <Yn4VgDfttlB2MK1fjhMbpQGDojrnhuH1ptuuWRYSs@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_Yn4VgDfttlB2MK1fjhMbpQGDojrnhuH1ptuuWRYSs"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_Yn4VgDfttlB2MK1fjhMbpQGDojrnhuH1ptuuWRYSs
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: New contact enquiry received:
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Name: Antigravity Verification
+[RESPONSE] CLIENT -> SERVER: Email: tvivek2021@gmail.com
+[RESPONSE] CLIENT -> SERVER: Phone: 9876543210
+[RESPONSE] CLIENT -> SERVER: Subject: Consultation - Diabetes
+[RESPONSE] CLIENT -> SERVER: Submitted: 10 Jul 2026, 07:51 AM
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Message:
+[RESPONSE] CLIENT -> SERVER: Final test after removing Reply-To header for Yahoo SMTP
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_Yn4VgDfttlB2MK1fjhMbpQGDojrnhuH1ptuuWRYSs
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:28px 32px;color:#ffffff;"><div style=3D"font=
+[RESPONSE] CLIENT -> SERVER: -size:13px;letter-spacing:1.8px;text-transform:uppercase;color:#7dd3fc;font=
+[RESPONSE] CLIENT -> SERVER: -weight:700;">New Enquiry</div><h1 style=3D"margin:8px 0 0;font-size:26px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.25;font-weight:700;">Contact form submission</h1><p style=3D"m=
+[RESPONSE] CLIENT -> SERVER: argin:10px 0 0;color:#dff7fb;font-size:15px;">Dr. Manisha Gupta website</p>=
+[RESPONSE] CLIENT -> SERVER: </td></tr><tr><td style=3D"padding:28px 32px;"><p style=3D"margin:0 0 20px;=
+[RESPONSE] CLIENT -> SERVER: font-size:16px;line-height:1.6;color:#334155;">A new patient/contact enquir=
+[RESPONSE] CLIENT -> SERVER: y has been submitted from the website.</p><table role=3D"presentation" widt=
+[RESPONSE] CLIENT -> SERVER: h=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:col=
+[RESPONSE] CLIENT -> SERVER: lapse;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;"><tr><td=
+[RESPONSE] CLIENT -> SERVER:  style=3D"padding:14px 16px;background:#f8fafc;width:140px;font-weight:700;=
+[RESPONSE] CLIENT -> SERVER: color:#0f172a;border-bottom:1px solid #e2e8f0;">Name</td><td style=3D"paddi=
+[RESPONSE] CLIENT -> SERVER: ng:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;">Antigravity Ve=
+[RESPONSE] CLIENT -> SERVER: rification</td></tr><tr><td style=3D"padding:14px 16px;background:#f8fafc;f=
+[RESPONSE] CLIENT -> SERVER: ont-weight:700;color:#0f172a;border-bottom:1px solid #e2e8f0;">Email</td><t=
+[RESPONSE] CLIENT -> SERVER: d style=3D"padding:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;=
+[RESPONSE] CLIENT -> SERVER: "><a href=3D"mailto:tvivek2021@gmail.com" style=3D"color:#0284c7;text-decor=
+[RESPONSE] CLIENT -> SERVER: ation:none;">tvivek2021@gmail.com</a></td></tr><tr><td style=3D"padding:14p=
+[RESPONSE] CLIENT -> SERVER: x 16px;background:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px s=
+[RESPONSE] CLIENT -> SERVER: olid #e2e8f0;">Phone</td><td style=3D"padding:14px 16px;border-bottom:1px s=
+[RESPONSE] CLIENT -> SERVER: olid #e2e8f0;color:#334155;"><a href=3D"tel:9876543210" style=3D"color:#028=
+[RESPONSE] CLIENT -> SERVER: 4c7;text-decoration:none;">9876543210</a></td></tr><tr><td style=3D"padding=
+[RESPONSE] CLIENT -> SERVER: :14px 16px;background:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1=
+[RESPONSE] CLIENT -> SERVER: px solid #e2e8f0;">Subject</td><td style=3D"padding:14px 16px;border-bottom=
+[RESPONSE] CLIENT -> SERVER: :1px solid #e2e8f0;color:#334155;">Consultation - Diabetes</td></tr><tr><td=
+[RESPONSE] CLIENT -> SERVER:  style=3D"padding:14px 16px;background:#f8fafc;font-weight:700;color:#0f172=
+[RESPONSE] CLIENT -> SERVER: a;">Submitted</td><td style=3D"padding:14px 16px;color:#334155;">10 Jul 202=
+[RESPONSE] CLIENT -> SERVER: 6, 07:51 AM</td></tr></table><div style=3D"margin-top:22px;padding:18px 20p=
+[RESPONSE] CLIENT -> SERVER: x;background:#f8fafc;border-left:4px solid #0eadae;border-radius:12px;"><di=
+[RESPONSE] CLIENT -> SERVER: v style=3D"font-weight:700;color:#0f172a;margin-bottom:8px;">Message</div><=
+[RESPONSE] CLIENT -> SERVER: div style=3D"font-size:15px;line-height:1.7;color:#334155;">Final test afte=
+[RESPONSE] CLIENT -> SERVER: r removing Reply-To header for Yahoo SMTP</div></div><p style=3D"margin:22p=
+[RESPONSE] CLIENT -> SERVER: x 0 0;font-size:13px;color:#64748b;">You can reply directly to this email t=
+[RESPONSE] CLIENT -> SERVER: o contact the sender.</p></td></tr><tr><td style=3D"background:#f8fafc;padd=
+[RESPONSE] CLIENT -> SERVER: ing:18px 32px;color:#64748b;font-size:12px;text-align:center;border-top:1px=
+[RESPONSE] CLIENT -> SERVER:  solid #e2e8f0;">Dr. Manisha Gupta | Website Contact Notification</td></tr>=
+[RESPONSE] CLIENT -> SERVER: </table></td></tr></table></body></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_Yn4VgDfttlB2MK1fjhMbpQGDojrnhuH1ptuuWRYSs--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 07:52:01.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-szkgl Hello yahoo.com [152.59.88.74])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-szkgl Hello yahoo.com [152.59.88.74])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<tvivek2021@gmail.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <tvivek2021@gmail.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 07:51:55 +0200
+[RESPONSE] CLIENT -> SERVER: To: Antigravity Verification <tvivek2021@gmail.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: We received your message - Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER: Message-ID: <IviXjEybb5dFFxT0Jppo2nAjaptWZy1EKFAQBFVZc@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_IviXjEybb5dFFxT0Jppo2nAjaptWZy1EKFAQBFVZc"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_IviXjEybb5dFFxT0Jppo2nAjaptWZy1EKFAQBFVZc
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Dear Antigravity Verification,
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Thank you for contacting Dr. Manisha Gupta. We have received your message and our team will get back to you within 24 hours.
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Your message:
+[RESPONSE] CLIENT -> SERVER: Final test after removing Reply-To header for Yahoo SMTP
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Regards,
+[RESPONSE] CLIENT -> SERVER: Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_IviXjEybb5dFFxT0Jppo2nAjaptWZy1EKFAQBFVZc
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:30px 32px;color:#ffffff;text-align:center;">=
+[RESPONSE] CLIENT -> SERVER: <div style=3D"font-size:13px;letter-spacing:1.8px;text-transform:uppercase;=
+[RESPONSE] CLIENT -> SERVER: color:#7dd3fc;font-weight:700;">Message Received</div><h1 style=3D"margin:9=
+[RESPONSE] CLIENT -> SERVER: px 0 0;font-size:28px;line-height:1.25;font-weight:700;">Thank you for cont=
+[RESPONSE] CLIENT -> SERVER: acting us</h1><p style=3D"margin:10px 0 0;color:#dff7fb;font-size:15px;">Dr=
+[RESPONSE] CLIENT -> SERVER: .. Manisha Gupta</p></td></tr><tr><td style=3D"padding:30px 32px;"><p style=
+[RESPONSE] CLIENT -> SERVER: =3D"margin:0 0 16px;font-size:16px;line-height:1.7;color:#334155;">Dear <st=
+[RESPONSE] CLIENT -> SERVER: rong>Antigravity Verification</strong>,</p><p style=3D"margin:0 0 18px;font=
+[RESPONSE] CLIENT -> SERVER: -size:16px;line-height:1.7;color:#334155;">Thank you for reaching out. We h=
+[RESPONSE] CLIENT -> SERVER: ave received your enquiry and our team will get back to you within 24 hours=
+[RESPONSE] CLIENT -> SERVER: ..</p><div style=3D"padding:18px 20px;background:#f8fafc;border-left:4px sol=
+[RESPONSE] CLIENT -> SERVER: id #0eadae;border-radius:12px;margin:22px 0;"><div style=3D"font-size:13px;=
+[RESPONSE] CLIENT -> SERVER: letter-spacing:1px;text-transform:uppercase;color:#0f766e;font-weight:700;m=
+[RESPONSE] CLIENT -> SERVER: argin-bottom:10px;">Your Submitted Message</div><div style=3D"font-size:15p=
+[RESPONSE] CLIENT -> SERVER: x;line-height:1.7;color:#334155;">Final test after removing Reply-To header=
+[RESPONSE] CLIENT -> SERVER:  for Yahoo SMTP</div></div><table role=3D"presentation" width=3D"100%" cell=
+[RESPONSE] CLIENT -> SERVER: spacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:collapse;margin-to=
+[RESPONSE] CLIENT -> SERVER: p:18px;"><tr><td style=3D"padding:12px 0;color:#64748b;font-size:14px;borde=
+[RESPONSE] CLIENT -> SERVER: r-top:1px solid #e2e8f0;">Subject</td><td style=3D"padding:12px 0;color:#0f=
+[RESPONSE] CLIENT -> SERVER: 172a;font-size:14px;font-weight:700;text-align:right;border-top:1px solid #=
+[RESPONSE] CLIENT -> SERVER: e2e8f0;">Consultation - Diabetes</td></tr><tr><td style=3D"padding:12px 0;c=
+[RESPONSE] CLIENT -> SERVER: olor:#64748b;font-size:14px;border-top:1px solid #e2e8f0;">Submitted</td><t=
+[RESPONSE] CLIENT -> SERVER: d style=3D"padding:12px 0;color:#0f172a;font-size:14px;font-weight:700;text=
+[RESPONSE] CLIENT -> SERVER: -align:right;border-top:1px solid #e2e8f0;">10 Jul 2026, 07:51 AM</td></tr>=
+[RESPONSE] CLIENT -> SERVER: </table><p style=3D"margin:22px 0 0;font-size:15px;line-height:1.7;color:#3=
+[RESPONSE] CLIENT -> SERVER: 34155;">Regards,<br><strong>Dr. Manisha Gupta</strong></p></td></tr><tr><td=
+[RESPONSE] CLIENT -> SERVER:  style=3D"background:#f8fafc;padding:18px 32px;color:#64748b;font-size:12px=
+[RESPONSE] CLIENT -> SERVER: ;text-align:center;border-top:1px solid #e2e8f0;">This is an acknowledgemen=
+[RESPONSE] CLIENT -> SERVER: t email for your website enquiry.</td></tr></table></td></tr></table></body=
+[RESPONSE] CLIENT -> SERVER: ></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_IviXjEybb5dFFxT0Jppo2nAjaptWZy1EKFAQBFVZc--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 07:55:26.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-czhf9 Hello yahoo.com [152.59.88.74])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-czhf9 Hello yahoo.com [152.59.88.74])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 07:55:20 +0200
+[RESPONSE] CLIENT -> SERVER: To: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: New contact enquiry: Consultation - Diabetes
+[RESPONSE] CLIENT -> SERVER: Message-ID: <laKLPzvNt1SbaNF9uQL97e8ULAHfOWQqtnyndCME@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_laKLPzvNt1SbaNF9uQL97e8ULAHfOWQqtnyndCME"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_laKLPzvNt1SbaNF9uQL97e8ULAHfOWQqtnyndCME
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: New contact enquiry received:
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Name: John Doe
+[RESPONSE] CLIENT -> SERVER: Email: shaurya.vashistha@oakyweb.com
+[RESPONSE] CLIENT -> SERVER: Phone: 9927164622
+[RESPONSE] CLIENT -> SERVER: Subject: Consultation - Diabetes
+[RESPONSE] CLIENT -> SERVER: Submitted: 10 Jul 2026, 07:55 AM
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Message:
+[RESPONSE] CLIENT -> SERVER: gghfghghffghgfhgfh
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_laKLPzvNt1SbaNF9uQL97e8ULAHfOWQqtnyndCME
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:28px 32px;color:#ffffff;"><div style=3D"font=
+[RESPONSE] CLIENT -> SERVER: -size:13px;letter-spacing:1.8px;text-transform:uppercase;color:#7dd3fc;font=
+[RESPONSE] CLIENT -> SERVER: -weight:700;">New Enquiry</div><h1 style=3D"margin:8px 0 0;font-size:26px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.25;font-weight:700;">Contact form submission</h1><p style=3D"m=
+[RESPONSE] CLIENT -> SERVER: argin:10px 0 0;color:#dff7fb;font-size:15px;">Dr. Manisha Gupta website</p>=
+[RESPONSE] CLIENT -> SERVER: </td></tr><tr><td style=3D"padding:28px 32px;"><p style=3D"margin:0 0 20px;=
+[RESPONSE] CLIENT -> SERVER: font-size:16px;line-height:1.6;color:#334155;">A new patient/contact enquir=
+[RESPONSE] CLIENT -> SERVER: y has been submitted from the website.</p><table role=3D"presentation" widt=
+[RESPONSE] CLIENT -> SERVER: h=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:col=
+[RESPONSE] CLIENT -> SERVER: lapse;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;"><tr><td=
+[RESPONSE] CLIENT -> SERVER:  style=3D"padding:14px 16px;background:#f8fafc;width:140px;font-weight:700;=
+[RESPONSE] CLIENT -> SERVER: color:#0f172a;border-bottom:1px solid #e2e8f0;">Name</td><td style=3D"paddi=
+[RESPONSE] CLIENT -> SERVER: ng:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;">John Doe</td><=
+[RESPONSE] CLIENT -> SERVER: /tr><tr><td style=3D"padding:14px 16px;background:#f8fafc;font-weight:700;c=
+[RESPONSE] CLIENT -> SERVER: olor:#0f172a;border-bottom:1px solid #e2e8f0;">Email</td><td style=3D"paddi=
+[RESPONSE] CLIENT -> SERVER: ng:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;"><a href=3D"mai=
+[RESPONSE] CLIENT -> SERVER: lto:shaurya.vashistha@oakyweb.com" style=3D"color:#0284c7;text-decoration:n=
+[RESPONSE] CLIENT -> SERVER: one;">shaurya.vashistha@oakyweb.com</a></td></tr><tr><td style=3D"padding:1=
+[RESPONSE] CLIENT -> SERVER: 4px 16px;background:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px=
+[RESPONSE] CLIENT -> SERVER:  solid #e2e8f0;">Phone</td><td style=3D"padding:14px 16px;border-bottom:1px=
+[RESPONSE] CLIENT -> SERVER:  solid #e2e8f0;color:#334155;"><a href=3D"tel:9927164622" style=3D"color:#0=
+[RESPONSE] CLIENT -> SERVER: 284c7;text-decoration:none;">9927164622</a></td></tr><tr><td style=3D"paddi=
+[RESPONSE] CLIENT -> SERVER: ng:14px 16px;background:#f8fafc;font-weight:700;color:#0f172a;border-bottom=
+[RESPONSE] CLIENT -> SERVER: :1px solid #e2e8f0;">Subject</td><td style=3D"padding:14px 16px;border-bott=
+[RESPONSE] CLIENT -> SERVER: om:1px solid #e2e8f0;color:#334155;">Consultation - Diabetes</td></tr><tr><=
+[RESPONSE] CLIENT -> SERVER: td style=3D"padding:14px 16px;background:#f8fafc;font-weight:700;color:#0f1=
+[RESPONSE] CLIENT -> SERVER: 72a;">Submitted</td><td style=3D"padding:14px 16px;color:#334155;">10 Jul 2=
+[RESPONSE] CLIENT -> SERVER: 026, 07:55 AM</td></tr></table><div style=3D"margin-top:22px;padding:18px 2=
+[RESPONSE] CLIENT -> SERVER: 0px;background:#f8fafc;border-left:4px solid #0eadae;border-radius:12px;"><=
+[RESPONSE] CLIENT -> SERVER: div style=3D"font-weight:700;color:#0f172a;margin-bottom:8px;">Message</div=
+[RESPONSE] CLIENT -> SERVER: ><div style=3D"font-size:15px;line-height:1.7;color:#334155;">gghfghghffghg=
+[RESPONSE] CLIENT -> SERVER: fhgfh</div></div><p style=3D"margin:22px 0 0;font-size:13px;color:#64748b;"=
+[RESPONSE] CLIENT -> SERVER: >You can reply directly to this email to contact the sender.</p></td></tr><=
+[RESPONSE] CLIENT -> SERVER: tr><td style=3D"background:#f8fafc;padding:18px 32px;color:#64748b;font-siz=
+[RESPONSE] CLIENT -> SERVER: e:12px;text-align:center;border-top:1px solid #e2e8f0;">Dr. Manisha Gupta |=
+[RESPONSE] CLIENT -> SERVER:  Website Contact Notification</td></tr></table></td></tr></table></body></h=
+[RESPONSE] CLIENT -> SERVER: tml>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_laKLPzvNt1SbaNF9uQL97e8ULAHfOWQqtnyndCME--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 07:55:31.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: shaurya.vashistha@oakyweb.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-5b7cf Hello yahoo.com [152.59.88.74])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-5b7cf Hello yahoo.com [152.59.88.74])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<shaurya.vashistha@oakyweb.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <shaurya.vashistha@oakyweb.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 07:55:26 +0200
+[RESPONSE] CLIENT -> SERVER: To: John Doe <shaurya.vashistha@oakyweb.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: We received your message - Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER: Message-ID: <rDFrLSn8aKERxCEAzn4YNLa7ICxmI4Du0exwJogpVw@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_rDFrLSn8aKERxCEAzn4YNLa7ICxmI4Du0exwJogpVw"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_rDFrLSn8aKERxCEAzn4YNLa7ICxmI4Du0exwJogpVw
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Dear John Doe,
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Thank you for contacting Dr. Manisha Gupta. We have received your message and our team will get back to you within 24 hours.
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Your message:
+[RESPONSE] CLIENT -> SERVER: gghfghghffghgfhgfh
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Regards,
+[RESPONSE] CLIENT -> SERVER: Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_rDFrLSn8aKERxCEAzn4YNLa7ICxmI4Du0exwJogpVw
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:30px 32px;color:#ffffff;text-align:center;">=
+[RESPONSE] CLIENT -> SERVER: <div style=3D"font-size:13px;letter-spacing:1.8px;text-transform:uppercase;=
+[RESPONSE] CLIENT -> SERVER: color:#7dd3fc;font-weight:700;">Message Received</div><h1 style=3D"margin:9=
+[RESPONSE] CLIENT -> SERVER: px 0 0;font-size:28px;line-height:1.25;font-weight:700;">Thank you for cont=
+[RESPONSE] CLIENT -> SERVER: acting us</h1><p style=3D"margin:10px 0 0;color:#dff7fb;font-size:15px;">Dr=
+[RESPONSE] CLIENT -> SERVER: .. Manisha Gupta</p></td></tr><tr><td style=3D"padding:30px 32px;"><p style=
+[RESPONSE] CLIENT -> SERVER: =3D"margin:0 0 16px;font-size:16px;line-height:1.7;color:#334155;">Dear <st=
+[RESPONSE] CLIENT -> SERVER: rong>John Doe</strong>,</p><p style=3D"margin:0 0 18px;font-size:16px;line-=
+[RESPONSE] CLIENT -> SERVER: height:1.7;color:#334155;">Thank you for reaching out. We have received you=
+[RESPONSE] CLIENT -> SERVER: r enquiry and our team will get back to you within 24 hours.</p><div style=
+[RESPONSE] CLIENT -> SERVER: =3D"padding:18px 20px;background:#f8fafc;border-left:4px solid #0eadae;bord=
+[RESPONSE] CLIENT -> SERVER: er-radius:12px;margin:22px 0;"><div style=3D"font-size:13px;letter-spacing:=
+[RESPONSE] CLIENT -> SERVER: 1px;text-transform:uppercase;color:#0f766e;font-weight:700;margin-bottom:10=
+[RESPONSE] CLIENT -> SERVER: px;">Your Submitted Message</div><div style=3D"font-size:15px;line-height:1=
+[RESPONSE] CLIENT -> SERVER: ..7;color:#334155;">gghfghghffghgfhgfh</div></div><table role=3D"presentatio=
+[RESPONSE] CLIENT -> SERVER: n" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-colla=
+[RESPONSE] CLIENT -> SERVER: pse:collapse;margin-top:18px;"><tr><td style=3D"padding:12px 0;color:#64748=
+[RESPONSE] CLIENT -> SERVER: b;font-size:14px;border-top:1px solid #e2e8f0;">Subject</td><td style=3D"pa=
+[RESPONSE] CLIENT -> SERVER: dding:12px 0;color:#0f172a;font-size:14px;font-weight:700;text-align:right;=
+[RESPONSE] CLIENT -> SERVER: border-top:1px solid #e2e8f0;">Consultation - Diabetes</td></tr><tr><td sty=
+[RESPONSE] CLIENT -> SERVER: le=3D"padding:12px 0;color:#64748b;font-size:14px;border-top:1px solid #e2e=
+[RESPONSE] CLIENT -> SERVER: 8f0;">Submitted</td><td style=3D"padding:12px 0;color:#0f172a;font-size:14p=
+[RESPONSE] CLIENT -> SERVER: x;font-weight:700;text-align:right;border-top:1px solid #e2e8f0;">10 Jul 20=
+[RESPONSE] CLIENT -> SERVER: 26, 07:55 AM</td></tr></table><p style=3D"margin:22px 0 0;font-size:15px;li=
+[RESPONSE] CLIENT -> SERVER: ne-height:1.7;color:#334155;">Regards,<br><strong>Dr. Manisha Gupta</strong=
+[RESPONSE] CLIENT -> SERVER: ></p></td></tr><tr><td style=3D"background:#f8fafc;padding:18px 32px;color:=
+[RESPONSE] CLIENT -> SERVER: #64748b;font-size:12px;text-align:center;border-top:1px solid #e2e8f0;">Thi=
+[RESPONSE] CLIENT -> SERVER: s is an acknowledgement email for your website enquiry.</td></tr></table></=
+[RESPONSE] CLIENT -> SERVER: td></tr></table></body></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_rDFrLSn8aKERxCEAzn4YNLa7ICxmI4Du0exwJogpVw--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 06:30:10.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-rsvh4 Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-rsvh4 Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 06:30:05 +0000
+[RESPONSE] CLIENT -> SERVER: To: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: New contact enquiry: Consultation - Diabetes
+[RESPONSE] CLIENT -> SERVER: Message-ID: <sWbxvKAHJrBEOPEjR2wVpKIpk0Zy1USYnIgug2t18Cw@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_sWbxvKAHJrBEOPEjR2wVpKIpk0Zy1USYnIgug2t18Cw"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_sWbxvKAHJrBEOPEjR2wVpKIpk0Zy1USYnIgug2t18Cw
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: New contact enquiry received:
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Name: Prince Sharma
+[RESPONSE] CLIENT -> SERVER: Email: shaurya.vashistha@oakyweb.com
+[RESPONSE] CLIENT -> SERVER: Phone: +919851157977
+[RESPONSE] CLIENT -> SERVER: Subject: Consultation - Diabetes
+[RESPONSE] CLIENT -> SERVER: Submitted: 10 Jul 2026, 06:30 AM
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Message:
+[RESPONSE] CLIENT -> SERVER: SDVSDGVSDF
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_sWbxvKAHJrBEOPEjR2wVpKIpk0Zy1USYnIgug2t18Cw
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:28px 32px;color:#ffffff;"><div style=3D"font=
+[RESPONSE] CLIENT -> SERVER: -size:13px;letter-spacing:1.8px;text-transform:uppercase;color:#7dd3fc;font=
+[RESPONSE] CLIENT -> SERVER: -weight:700;">New Enquiry</div><h1 style=3D"margin:8px 0 0;font-size:26px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.25;font-weight:700;">Contact form submission</h1><p style=3D"m=
+[RESPONSE] CLIENT -> SERVER: argin:10px 0 0;color:#dff7fb;font-size:15px;">Dr. Manisha Gupta website</p>=
+[RESPONSE] CLIENT -> SERVER: </td></tr><tr><td style=3D"padding:28px 32px;"><p style=3D"margin:0 0 20px;=
+[RESPONSE] CLIENT -> SERVER: font-size:16px;line-height:1.6;color:#334155;">A new patient/contact enquir=
+[RESPONSE] CLIENT -> SERVER: y has been submitted from the website.</p><table role=3D"presentation" widt=
+[RESPONSE] CLIENT -> SERVER: h=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:col=
+[RESPONSE] CLIENT -> SERVER: lapse;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;"><tr><td=
+[RESPONSE] CLIENT -> SERVER:  style=3D"padding:14px 16px;background:#f8fafc;width:140px;font-weight:700;=
+[RESPONSE] CLIENT -> SERVER: color:#0f172a;border-bottom:1px solid #e2e8f0;">Name</td><td style=3D"paddi=
+[RESPONSE] CLIENT -> SERVER: ng:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;">Prince Sharma<=
+[RESPONSE] CLIENT -> SERVER: /td></tr><tr><td style=3D"padding:14px 16px;background:#f8fafc;font-weight:=
+[RESPONSE] CLIENT -> SERVER: 700;color:#0f172a;border-bottom:1px solid #e2e8f0;">Email</td><td style=3D"=
+[RESPONSE] CLIENT -> SERVER: padding:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;"><a href=
+[RESPONSE] CLIENT -> SERVER: =3D"mailto:shaurya.vashistha@oakyweb.com" style=3D"color:#0284c7;text-decor=
+[RESPONSE] CLIENT -> SERVER: ation:none;">shaurya.vashistha@oakyweb.com</a></td></tr><tr><td style=3D"pa=
+[RESPONSE] CLIENT -> SERVER: dding:14px 16px;background:#f8fafc;font-weight:700;color:#0f172a;border-bot=
+[RESPONSE] CLIENT -> SERVER: tom:1px solid #e2e8f0;">Phone</td><td style=3D"padding:14px 16px;border-bot=
+[RESPONSE] CLIENT -> SERVER: tom:1px solid #e2e8f0;color:#334155;"><a href=3D"tel:+919851157977" style=
+[RESPONSE] CLIENT -> SERVER: =3D"color:#0284c7;text-decoration:none;">+919851157977</a></td></tr><tr><td=
+[RESPONSE] CLIENT -> SERVER:  style=3D"padding:14px 16px;background:#f8fafc;font-weight:700;color:#0f172=
+[RESPONSE] CLIENT -> SERVER: a;border-bottom:1px solid #e2e8f0;">Subject</td><td style=3D"padding:14px 1=
+[RESPONSE] CLIENT -> SERVER: 6px;border-bottom:1px solid #e2e8f0;color:#334155;">Consultation - Diabetes=
+[RESPONSE] CLIENT -> SERVER: </td></tr><tr><td style=3D"padding:14px 16px;background:#f8fafc;font-weight=
+[RESPONSE] CLIENT -> SERVER: :700;color:#0f172a;">Submitted</td><td style=3D"padding:14px 16px;color:#33=
+[RESPONSE] CLIENT -> SERVER: 4155;">10 Jul 2026, 06:30 AM</td></tr></table><div style=3D"margin-top:22px=
+[RESPONSE] CLIENT -> SERVER: ;padding:18px 20px;background:#f8fafc;border-left:4px solid #0eadae;border-=
+[RESPONSE] CLIENT -> SERVER: radius:12px;"><div style=3D"font-weight:700;color:#0f172a;margin-bottom:8px=
+[RESPONSE] CLIENT -> SERVER: ;">Message</div><div style=3D"font-size:15px;line-height:1.7;color:#334155;=
+[RESPONSE] CLIENT -> SERVER: ">SDVSDGVSDF</div></div><p style=3D"margin:22px 0 0;font-size:13px;color:#6=
+[RESPONSE] CLIENT -> SERVER: 4748b;">You can reply directly to this email to contact the sender.</p></td=
+[RESPONSE] CLIENT -> SERVER: ></tr><tr><td style=3D"background:#f8fafc;padding:18px 32px;color:#64748b;f=
+[RESPONSE] CLIENT -> SERVER: ont-size:12px;text-align:center;border-top:1px solid #e2e8f0;">Dr. Manisha =
+[RESPONSE] CLIENT -> SERVER: Gupta | Website Contact Notification</td></tr></table></td></tr></table></b=
+[RESPONSE] CLIENT -> SERVER: ody></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_sWbxvKAHJrBEOPEjR2wVpKIpk0Zy1USYnIgug2t18Cw--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 06:30:14.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: shaurya.vashistha@oakyweb.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-z4jt5 Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-z4jt5 Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<shaurya.vashistha@oakyweb.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <shaurya.vashistha@oakyweb.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 06:30:10 +0000
+[RESPONSE] CLIENT -> SERVER: To: Prince Sharma <shaurya.vashistha@oakyweb.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: We received your message - Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER: Message-ID: <YaetfNYDm3MUUinfwWcqxPMW2KcV6HOHvpkuMbENKrE@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_YaetfNYDm3MUUinfwWcqxPMW2KcV6HOHvpkuMbENKrE"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_YaetfNYDm3MUUinfwWcqxPMW2KcV6HOHvpkuMbENKrE
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Dear Prince Sharma,
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Thank you for contacting Dr. Manisha Gupta. We have received your message and our team will get back to you within 24 hours.
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Your message:
+[RESPONSE] CLIENT -> SERVER: SDVSDGVSDF
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Regards,
+[RESPONSE] CLIENT -> SERVER: Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_YaetfNYDm3MUUinfwWcqxPMW2KcV6HOHvpkuMbENKrE
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:30px 32px;color:#ffffff;text-align:center;">=
+[RESPONSE] CLIENT -> SERVER: <div style=3D"font-size:13px;letter-spacing:1.8px;text-transform:uppercase;=
+[RESPONSE] CLIENT -> SERVER: color:#7dd3fc;font-weight:700;">Message Received</div><h1 style=3D"margin:9=
+[RESPONSE] CLIENT -> SERVER: px 0 0;font-size:28px;line-height:1.25;font-weight:700;">Thank you for cont=
+[RESPONSE] CLIENT -> SERVER: acting us</h1><p style=3D"margin:10px 0 0;color:#dff7fb;font-size:15px;">Dr=
+[RESPONSE] CLIENT -> SERVER: .. Manisha Gupta</p></td></tr><tr><td style=3D"padding:30px 32px;"><p style=
+[RESPONSE] CLIENT -> SERVER: =3D"margin:0 0 16px;font-size:16px;line-height:1.7;color:#334155;">Dear <st=
+[RESPONSE] CLIENT -> SERVER: rong>Prince Sharma</strong>,</p><p style=3D"margin:0 0 18px;font-size:16px;=
+[RESPONSE] CLIENT -> SERVER: line-height:1.7;color:#334155;">Thank you for reaching out. We have receive=
+[RESPONSE] CLIENT -> SERVER: d your enquiry and our team will get back to you within 24 hours.</p><div s=
+[RESPONSE] CLIENT -> SERVER: tyle=3D"padding:18px 20px;background:#f8fafc;border-left:4px solid #0eadae;=
+[RESPONSE] CLIENT -> SERVER: border-radius:12px;margin:22px 0;"><div style=3D"font-size:13px;letter-spac=
+[RESPONSE] CLIENT -> SERVER: ing:1px;text-transform:uppercase;color:#0f766e;font-weight:700;margin-botto=
+[RESPONSE] CLIENT -> SERVER: m:10px;">Your Submitted Message</div><div style=3D"font-size:15px;line-heig=
+[RESPONSE] CLIENT -> SERVER: ht:1.7;color:#334155;">SDVSDGVSDF</div></div><table role=3D"presentation" w=
+[RESPONSE] CLIENT -> SERVER: idth=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:=
+[RESPONSE] CLIENT -> SERVER: collapse;margin-top:18px;"><tr><td style=3D"padding:12px 0;color:#64748b;fo=
+[RESPONSE] CLIENT -> SERVER: nt-size:14px;border-top:1px solid #e2e8f0;">Subject</td><td style=3D"paddin=
+[RESPONSE] CLIENT -> SERVER: g:12px 0;color:#0f172a;font-size:14px;font-weight:700;text-align:right;bord=
+[RESPONSE] CLIENT -> SERVER: er-top:1px solid #e2e8f0;">Consultation - Diabetes</td></tr><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"padding:12px 0;color:#64748b;font-size:14px;border-top:1px solid #e2e8f=
+[RESPONSE] CLIENT -> SERVER: 0;">Submitted</td><td style=3D"padding:12px 0;color:#0f172a;font-size:14px;=
+[RESPONSE] CLIENT -> SERVER: font-weight:700;text-align:right;border-top:1px solid #e2e8f0;">10 Jul 2026=
+[RESPONSE] CLIENT -> SERVER: , 06:30 AM</td></tr></table><p style=3D"margin:22px 0 0;font-size:15px;line=
+[RESPONSE] CLIENT -> SERVER: -height:1.7;color:#334155;">Regards,<br><strong>Dr. Manisha Gupta</strong><=
+[RESPONSE] CLIENT -> SERVER: /p></td></tr><tr><td style=3D"background:#f8fafc;padding:18px 32px;color:#6=
+[RESPONSE] CLIENT -> SERVER: 4748b;font-size:12px;text-align:center;border-top:1px solid #e2e8f0;">This =
+[RESPONSE] CLIENT -> SERVER: is an acknowledgement email for your website enquiry.</td></tr></table></td=
+[RESPONSE] CLIENT -> SERVER: ></tr></table></body></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_YaetfNYDm3MUUinfwWcqxPMW2KcV6HOHvpkuMbENKrE--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 06:31:33.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-rsvh4 Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-rsvh4 Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 06:31:28 +0000
+[RESPONSE] CLIENT -> SERVER: To: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: New contact enquiry: Appointment Booking
+[RESPONSE] CLIENT -> SERVER: Message-ID: <CBbez1ell7e865PQyA8Kw3Gn4rLrXrL0U71a8XyHA@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_CBbez1ell7e865PQyA8Kw3Gn4rLrXrL0U71a8XyHA"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_CBbez1ell7e865PQyA8Kw3Gn4rLrXrL0U71a8XyHA
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: New contact enquiry received:
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Name: Vivek Tiwari
+[RESPONSE] CLIENT -> SERVER: Email: tvivek2021@gmail.com
+[RESPONSE] CLIENT -> SERVER: Phone: 9650789509
+[RESPONSE] CLIENT -> SERVER: Subject: Appointment Booking
+[RESPONSE] CLIENT -> SERVER: Submitted: 10 Jul 2026, 06:31 AM
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Message:
+[RESPONSE] CLIENT -> SERVER: again mail test
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_CBbez1ell7e865PQyA8Kw3Gn4rLrXrL0U71a8XyHA
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:28px 32px;color:#ffffff;"><div style=3D"font=
+[RESPONSE] CLIENT -> SERVER: -size:13px;letter-spacing:1.8px;text-transform:uppercase;color:#7dd3fc;font=
+[RESPONSE] CLIENT -> SERVER: -weight:700;">New Enquiry</div><h1 style=3D"margin:8px 0 0;font-size:26px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.25;font-weight:700;">Contact form submission</h1><p style=3D"m=
+[RESPONSE] CLIENT -> SERVER: argin:10px 0 0;color:#dff7fb;font-size:15px;">Dr. Manisha Gupta website</p>=
+[RESPONSE] CLIENT -> SERVER: </td></tr><tr><td style=3D"padding:28px 32px;"><p style=3D"margin:0 0 20px;=
+[RESPONSE] CLIENT -> SERVER: font-size:16px;line-height:1.6;color:#334155;">A new patient/contact enquir=
+[RESPONSE] CLIENT -> SERVER: y has been submitted from the website.</p><table role=3D"presentation" widt=
+[RESPONSE] CLIENT -> SERVER: h=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:col=
+[RESPONSE] CLIENT -> SERVER: lapse;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;"><tr><td=
+[RESPONSE] CLIENT -> SERVER:  style=3D"padding:14px 16px;background:#f8fafc;width:140px;font-weight:700;=
+[RESPONSE] CLIENT -> SERVER: color:#0f172a;border-bottom:1px solid #e2e8f0;">Name</td><td style=3D"paddi=
+[RESPONSE] CLIENT -> SERVER: ng:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;">Vivek Tiwari</=
+[RESPONSE] CLIENT -> SERVER: td></tr><tr><td style=3D"padding:14px 16px;background:#f8fafc;font-weight:7=
+[RESPONSE] CLIENT -> SERVER: 00;color:#0f172a;border-bottom:1px solid #e2e8f0;">Email</td><td style=3D"p=
+[RESPONSE] CLIENT -> SERVER: adding:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;"><a href=3D=
+[RESPONSE] CLIENT -> SERVER: "mailto:tvivek2021@gmail.com" style=3D"color:#0284c7;text-decoration:none;"=
+[RESPONSE] CLIENT -> SERVER: >tvivek2021@gmail.com</a></td></tr><tr><td style=3D"padding:14px 16px;backg=
+[RESPONSE] CLIENT -> SERVER: round:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px solid #e2e8f0=
+[RESPONSE] CLIENT -> SERVER: ;">Phone</td><td style=3D"padding:14px 16px;border-bottom:1px solid #e2e8f0=
+[RESPONSE] CLIENT -> SERVER: ;color:#334155;"><a href=3D"tel:9650789509" style=3D"color:#0284c7;text-dec=
+[RESPONSE] CLIENT -> SERVER: oration:none;">9650789509</a></td></tr><tr><td style=3D"padding:14px 16px;b=
+[RESPONSE] CLIENT -> SERVER: ackground:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px solid #e2=
+[RESPONSE] CLIENT -> SERVER: e8f0;">Subject</td><td style=3D"padding:14px 16px;border-bottom:1px solid #=
+[RESPONSE] CLIENT -> SERVER: e2e8f0;color:#334155;">Appointment Booking</td></tr><tr><td style=3D"paddin=
+[RESPONSE] CLIENT -> SERVER: g:14px 16px;background:#f8fafc;font-weight:700;color:#0f172a;">Submitted</t=
+[RESPONSE] CLIENT -> SERVER: d><td style=3D"padding:14px 16px;color:#334155;">10 Jul 2026, 06:31 AM</td>=
+[RESPONSE] CLIENT -> SERVER: </tr></table><div style=3D"margin-top:22px;padding:18px 20px;background:#f8=
+[RESPONSE] CLIENT -> SERVER: fafc;border-left:4px solid #0eadae;border-radius:12px;"><div style=3D"font-=
+[RESPONSE] CLIENT -> SERVER: weight:700;color:#0f172a;margin-bottom:8px;">Message</div><div style=3D"fon=
+[RESPONSE] CLIENT -> SERVER: t-size:15px;line-height:1.7;color:#334155;">again mail test</div></div><p s=
+[RESPONSE] CLIENT -> SERVER: tyle=3D"margin:22px 0 0;font-size:13px;color:#64748b;">You can reply direct=
+[RESPONSE] CLIENT -> SERVER: ly to this email to contact the sender.</p></td></tr><tr><td style=3D"backg=
+[RESPONSE] CLIENT -> SERVER: round:#f8fafc;padding:18px 32px;color:#64748b;font-size:12px;text-align:cen=
+[RESPONSE] CLIENT -> SERVER: ter;border-top:1px solid #e2e8f0;">Dr. Manisha Gupta | Website Contact Noti=
+[RESPONSE] CLIENT -> SERVER: fication</td></tr></table></td></tr></table></body></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_CBbez1ell7e865PQyA8Kw3Gn4rLrXrL0U71a8XyHA--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 06:31:38.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-wcllc Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-wcllc Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<tvivek2021@gmail.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <tvivek2021@gmail.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 06:31:33 +0000
+[RESPONSE] CLIENT -> SERVER: To: Vivek Tiwari <tvivek2021@gmail.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: We received your message - Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER: Message-ID: <RnW6fnzvsxEvkztax4PcqLuXrnSYMUPdeMlSa9NuU@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_RnW6fnzvsxEvkztax4PcqLuXrnSYMUPdeMlSa9NuU"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_RnW6fnzvsxEvkztax4PcqLuXrnSYMUPdeMlSa9NuU
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Dear Vivek Tiwari,
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Thank you for contacting Dr. Manisha Gupta. We have received your message and our team will get back to you within 24 hours.
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Your message:
+[RESPONSE] CLIENT -> SERVER: again mail test
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Regards,
+[RESPONSE] CLIENT -> SERVER: Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_RnW6fnzvsxEvkztax4PcqLuXrnSYMUPdeMlSa9NuU
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:30px 32px;color:#ffffff;text-align:center;">=
+[RESPONSE] CLIENT -> SERVER: <div style=3D"font-size:13px;letter-spacing:1.8px;text-transform:uppercase;=
+[RESPONSE] CLIENT -> SERVER: color:#7dd3fc;font-weight:700;">Message Received</div><h1 style=3D"margin:9=
+[RESPONSE] CLIENT -> SERVER: px 0 0;font-size:28px;line-height:1.25;font-weight:700;">Thank you for cont=
+[RESPONSE] CLIENT -> SERVER: acting us</h1><p style=3D"margin:10px 0 0;color:#dff7fb;font-size:15px;">Dr=
+[RESPONSE] CLIENT -> SERVER: .. Manisha Gupta</p></td></tr><tr><td style=3D"padding:30px 32px;"><p style=
+[RESPONSE] CLIENT -> SERVER: =3D"margin:0 0 16px;font-size:16px;line-height:1.7;color:#334155;">Dear <st=
+[RESPONSE] CLIENT -> SERVER: rong>Vivek Tiwari</strong>,</p><p style=3D"margin:0 0 18px;font-size:16px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.7;color:#334155;">Thank you for reaching out. We have received=
+[RESPONSE] CLIENT -> SERVER:  your enquiry and our team will get back to you within 24 hours.</p><div st=
+[RESPONSE] CLIENT -> SERVER: yle=3D"padding:18px 20px;background:#f8fafc;border-left:4px solid #0eadae;b=
+[RESPONSE] CLIENT -> SERVER: order-radius:12px;margin:22px 0;"><div style=3D"font-size:13px;letter-spaci=
+[RESPONSE] CLIENT -> SERVER: ng:1px;text-transform:uppercase;color:#0f766e;font-weight:700;margin-bottom=
+[RESPONSE] CLIENT -> SERVER: :10px;">Your Submitted Message</div><div style=3D"font-size:15px;line-heigh=
+[RESPONSE] CLIENT -> SERVER: t:1.7;color:#334155;">again mail test</div></div><table role=3D"presentatio=
+[RESPONSE] CLIENT -> SERVER: n" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-colla=
+[RESPONSE] CLIENT -> SERVER: pse:collapse;margin-top:18px;"><tr><td style=3D"padding:12px 0;color:#64748=
+[RESPONSE] CLIENT -> SERVER: b;font-size:14px;border-top:1px solid #e2e8f0;">Subject</td><td style=3D"pa=
+[RESPONSE] CLIENT -> SERVER: dding:12px 0;color:#0f172a;font-size:14px;font-weight:700;text-align:right;=
+[RESPONSE] CLIENT -> SERVER: border-top:1px solid #e2e8f0;">Appointment Booking</td></tr><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"padding:12px 0;color:#64748b;font-size:14px;border-top:1px solid #e2e8f=
+[RESPONSE] CLIENT -> SERVER: 0;">Submitted</td><td style=3D"padding:12px 0;color:#0f172a;font-size:14px;=
+[RESPONSE] CLIENT -> SERVER: font-weight:700;text-align:right;border-top:1px solid #e2e8f0;">10 Jul 2026=
+[RESPONSE] CLIENT -> SERVER: , 06:31 AM</td></tr></table><p style=3D"margin:22px 0 0;font-size:15px;line=
+[RESPONSE] CLIENT -> SERVER: -height:1.7;color:#334155;">Regards,<br><strong>Dr. Manisha Gupta</strong><=
+[RESPONSE] CLIENT -> SERVER: /p></td></tr><tr><td style=3D"background:#f8fafc;padding:18px 32px;color:#6=
+[RESPONSE] CLIENT -> SERVER: 4748b;font-size:12px;text-align:center;border-top:1px solid #e2e8f0;">This =
+[RESPONSE] CLIENT -> SERVER: is an acknowledgement email for your website enquiry.</td></tr></table></td=
+[RESPONSE] CLIENT -> SERVER: ></tr></table></body></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_RnW6fnzvsxEvkztax4PcqLuXrnSYMUPdeMlSa9NuU--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 06:33:29.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-rsvh4 Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-rsvh4 Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 06:33:24 +0000
+[RESPONSE] CLIENT -> SERVER: To: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: New contact enquiry: Appointment Request
+[RESPONSE] CLIENT -> SERVER: Message-ID: <ctZ4eI9Jp1tAMbuKRui5AIQS2UxGYrj3mf6Ho7qO0@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_ctZ4eI9Jp1tAMbuKRui5AIQS2UxGYrj3mf6Ho7qO0"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_ctZ4eI9Jp1tAMbuKRui5AIQS2UxGYrj3mf6Ho7qO0
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: New contact enquiry received:
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Name: vikas tiwari
+[RESPONSE] CLIENT -> SERVER: Email: kadiwalabhay@gmail.com
+[RESPONSE] CLIENT -> SERVER: Phone: 9650789509
+[RESPONSE] CLIENT -> SERVER: Subject: Appointment Request
+[RESPONSE] CLIENT -> SERVER: Submitted: 10 Jul 2026, 06:33 AM
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Message:
+[RESPONSE] CLIENT -> SERVER: test
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_ctZ4eI9Jp1tAMbuKRui5AIQS2UxGYrj3mf6Ho7qO0
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:28px 32px;color:#ffffff;"><div style=3D"font=
+[RESPONSE] CLIENT -> SERVER: -size:13px;letter-spacing:1.8px;text-transform:uppercase;color:#7dd3fc;font=
+[RESPONSE] CLIENT -> SERVER: -weight:700;">New Enquiry</div><h1 style=3D"margin:8px 0 0;font-size:26px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.25;font-weight:700;">Contact form submission</h1><p style=3D"m=
+[RESPONSE] CLIENT -> SERVER: argin:10px 0 0;color:#dff7fb;font-size:15px;">Dr. Manisha Gupta website</p>=
+[RESPONSE] CLIENT -> SERVER: </td></tr><tr><td style=3D"padding:28px 32px;"><p style=3D"margin:0 0 20px;=
+[RESPONSE] CLIENT -> SERVER: font-size:16px;line-height:1.6;color:#334155;">A new patient/contact enquir=
+[RESPONSE] CLIENT -> SERVER: y has been submitted from the website.</p><table role=3D"presentation" widt=
+[RESPONSE] CLIENT -> SERVER: h=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:col=
+[RESPONSE] CLIENT -> SERVER: lapse;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;"><tr><td=
+[RESPONSE] CLIENT -> SERVER:  style=3D"padding:14px 16px;background:#f8fafc;width:140px;font-weight:700;=
+[RESPONSE] CLIENT -> SERVER: color:#0f172a;border-bottom:1px solid #e2e8f0;">Name</td><td style=3D"paddi=
+[RESPONSE] CLIENT -> SERVER: ng:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;">vikas tiwari</=
+[RESPONSE] CLIENT -> SERVER: td></tr><tr><td style=3D"padding:14px 16px;background:#f8fafc;font-weight:7=
+[RESPONSE] CLIENT -> SERVER: 00;color:#0f172a;border-bottom:1px solid #e2e8f0;">Email</td><td style=3D"p=
+[RESPONSE] CLIENT -> SERVER: adding:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;"><a href=3D=
+[RESPONSE] CLIENT -> SERVER: "mailto:kadiwalabhay@gmail.com" style=3D"color:#0284c7;text-decoration:none=
+[RESPONSE] CLIENT -> SERVER: ;">kadiwalabhay@gmail.com</a></td></tr><tr><td style=3D"padding:14px 16px;b=
+[RESPONSE] CLIENT -> SERVER: ackground:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px solid #e2=
+[RESPONSE] CLIENT -> SERVER: e8f0;">Phone</td><td style=3D"padding:14px 16px;border-bottom:1px solid #e2=
+[RESPONSE] CLIENT -> SERVER: e8f0;color:#334155;"><a href=3D"tel:9650789509" style=3D"color:#0284c7;text=
+[RESPONSE] CLIENT -> SERVER: -decoration:none;">9650789509</a></td></tr><tr><td style=3D"padding:14px 16=
+[RESPONSE] CLIENT -> SERVER: px;background:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px solid=
+[RESPONSE] CLIENT -> SERVER:  #e2e8f0;">Subject</td><td style=3D"padding:14px 16px;border-bottom:1px sol=
+[RESPONSE] CLIENT -> SERVER: id #e2e8f0;color:#334155;">Appointment Request</td></tr><tr><td style=3D"pa=
+[RESPONSE] CLIENT -> SERVER: dding:14px 16px;background:#f8fafc;font-weight:700;color:#0f172a;">Submitte=
+[RESPONSE] CLIENT -> SERVER: d</td><td style=3D"padding:14px 16px;color:#334155;">10 Jul 2026, 06:33 AM<=
+[RESPONSE] CLIENT -> SERVER: /td></tr></table><div style=3D"margin-top:22px;padding:18px 20px;background=
+[RESPONSE] CLIENT -> SERVER: :#f8fafc;border-left:4px solid #0eadae;border-radius:12px;"><div style=3D"f=
+[RESPONSE] CLIENT -> SERVER: ont-weight:700;color:#0f172a;margin-bottom:8px;">Message</div><div style=3D=
+[RESPONSE] CLIENT -> SERVER: "font-size:15px;line-height:1.7;color:#334155;">test</div></div><p style=3D=
+[RESPONSE] CLIENT -> SERVER: "margin:22px 0 0;font-size:13px;color:#64748b;">You can reply directly to t=
+[RESPONSE] CLIENT -> SERVER: his email to contact the sender.</p></td></tr><tr><td style=3D"background:#=
+[RESPONSE] CLIENT -> SERVER: f8fafc;padding:18px 32px;color:#64748b;font-size:12px;text-align:center;bor=
+[RESPONSE] CLIENT -> SERVER: der-top:1px solid #e2e8f0;">Dr. Manisha Gupta | Website Contact Notificatio=
+[RESPONSE] CLIENT -> SERVER: n</td></tr></table></td></tr></table></body></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_ctZ4eI9Jp1tAMbuKRui5AIQS2UxGYrj3mf6Ho7qO0--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 06:33:33.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: kadiwalabhay@gmail.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-z4jt5 Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-z4jt5 Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<kadiwalabhay@gmail.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <kadiwalabhay@gmail.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 06:33:29 +0000
+[RESPONSE] CLIENT -> SERVER: To: vikas tiwari <kadiwalabhay@gmail.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: We received your message - Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER: Message-ID: <A80WulGT7JynWeaVa7FayWTuDef903ZGpl0jvSwjXw@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_A80WulGT7JynWeaVa7FayWTuDef903ZGpl0jvSwjXw"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_A80WulGT7JynWeaVa7FayWTuDef903ZGpl0jvSwjXw
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Dear vikas tiwari,
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Thank you for contacting Dr. Manisha Gupta. We have received your message and our team will get back to you within 24 hours.
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Your message:
+[RESPONSE] CLIENT -> SERVER: test
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Regards,
+[RESPONSE] CLIENT -> SERVER: Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_A80WulGT7JynWeaVa7FayWTuDef903ZGpl0jvSwjXw
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:30px 32px;color:#ffffff;text-align:center;">=
+[RESPONSE] CLIENT -> SERVER: <div style=3D"font-size:13px;letter-spacing:1.8px;text-transform:uppercase;=
+[RESPONSE] CLIENT -> SERVER: color:#7dd3fc;font-weight:700;">Message Received</div><h1 style=3D"margin:9=
+[RESPONSE] CLIENT -> SERVER: px 0 0;font-size:28px;line-height:1.25;font-weight:700;">Thank you for cont=
+[RESPONSE] CLIENT -> SERVER: acting us</h1><p style=3D"margin:10px 0 0;color:#dff7fb;font-size:15px;">Dr=
+[RESPONSE] CLIENT -> SERVER: .. Manisha Gupta</p></td></tr><tr><td style=3D"padding:30px 32px;"><p style=
+[RESPONSE] CLIENT -> SERVER: =3D"margin:0 0 16px;font-size:16px;line-height:1.7;color:#334155;">Dear <st=
+[RESPONSE] CLIENT -> SERVER: rong>vikas tiwari</strong>,</p><p style=3D"margin:0 0 18px;font-size:16px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.7;color:#334155;">Thank you for reaching out. We have received=
+[RESPONSE] CLIENT -> SERVER:  your enquiry and our team will get back to you within 24 hours.</p><div st=
+[RESPONSE] CLIENT -> SERVER: yle=3D"padding:18px 20px;background:#f8fafc;border-left:4px solid #0eadae;b=
+[RESPONSE] CLIENT -> SERVER: order-radius:12px;margin:22px 0;"><div style=3D"font-size:13px;letter-spaci=
+[RESPONSE] CLIENT -> SERVER: ng:1px;text-transform:uppercase;color:#0f766e;font-weight:700;margin-bottom=
+[RESPONSE] CLIENT -> SERVER: :10px;">Your Submitted Message</div><div style=3D"font-size:15px;line-heigh=
+[RESPONSE] CLIENT -> SERVER: t:1.7;color:#334155;">test</div></div><table role=3D"presentation" width=3D=
+[RESPONSE] CLIENT -> SERVER: "100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:collaps=
+[RESPONSE] CLIENT -> SERVER: e;margin-top:18px;"><tr><td style=3D"padding:12px 0;color:#64748b;font-size=
+[RESPONSE] CLIENT -> SERVER: :14px;border-top:1px solid #e2e8f0;">Subject</td><td style=3D"padding:12px =
+[RESPONSE] CLIENT -> SERVER: 0;color:#0f172a;font-size:14px;font-weight:700;text-align:right;border-top:=
+[RESPONSE] CLIENT -> SERVER: 1px solid #e2e8f0;">Appointment Request</td></tr><tr><td style=3D"padding:1=
+[RESPONSE] CLIENT -> SERVER: 2px 0;color:#64748b;font-size:14px;border-top:1px solid #e2e8f0;">Submitted=
+[RESPONSE] CLIENT -> SERVER: </td><td style=3D"padding:12px 0;color:#0f172a;font-size:14px;font-weight:7=
+[RESPONSE] CLIENT -> SERVER: 00;text-align:right;border-top:1px solid #e2e8f0;">10 Jul 2026, 06:33 AM</t=
+[RESPONSE] CLIENT -> SERVER: d></tr></table><p style=3D"margin:22px 0 0;font-size:15px;line-height:1.7;c=
+[RESPONSE] CLIENT -> SERVER: olor:#334155;">Regards,<br><strong>Dr. Manisha Gupta</strong></p></td></tr>=
+[RESPONSE] CLIENT -> SERVER: <tr><td style=3D"background:#f8fafc;padding:18px 32px;color:#64748b;font-si=
+[RESPONSE] CLIENT -> SERVER: ze:12px;text-align:center;border-top:1px solid #e2e8f0;">This is an acknowl=
+[RESPONSE] CLIENT -> SERVER: edgement email for your website enquiry.</td></tr></table></td></tr></table=
+[RESPONSE] CLIENT -> SERVER: ></body></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_A80WulGT7JynWeaVa7FayWTuDef903ZGpl0jvSwjXw--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 12:06:54.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-z4jt5 Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-z4jt5 Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 12:06:49 +0000
+[RESPONSE] CLIENT -> SERVER: To: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: New contact enquiry: Other
+[RESPONSE] CLIENT -> SERVER: Message-ID: <RMEk899HCYR9fHabCbqfqAfjwF11I7yfMdwMgopnOw@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_RMEk899HCYR9fHabCbqfqAfjwF11I7yfMdwMgopnOw"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_RMEk899HCYR9fHabCbqfqAfjwF11I7yfMdwMgopnOw
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: New contact enquiry received:
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Name: Vivek Tiwari
+[RESPONSE] CLIENT -> SERVER: Email: tvivek2021@gmail.com
+[RESPONSE] CLIENT -> SERVER: Phone: 9650789509
+[RESPONSE] CLIENT -> SERVER: Subject: Other
+[RESPONSE] CLIENT -> SERVER: Submitted: 10 Jul 2026, 12:06 PM
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Message:
+[RESPONSE] CLIENT -> SERVER: testing
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_RMEk899HCYR9fHabCbqfqAfjwF11I7yfMdwMgopnOw
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:28px 32px;color:#ffffff;"><div style=3D"font=
+[RESPONSE] CLIENT -> SERVER: -size:13px;letter-spacing:1.8px;text-transform:uppercase;color:#7dd3fc;font=
+[RESPONSE] CLIENT -> SERVER: -weight:700;">New Enquiry</div><h1 style=3D"margin:8px 0 0;font-size:26px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.25;font-weight:700;">Contact form submission</h1><p style=3D"m=
+[RESPONSE] CLIENT -> SERVER: argin:10px 0 0;color:#dff7fb;font-size:15px;">Dr. Manisha Gupta website</p>=
+[RESPONSE] CLIENT -> SERVER: </td></tr><tr><td style=3D"padding:28px 32px;"><p style=3D"margin:0 0 20px;=
+[RESPONSE] CLIENT -> SERVER: font-size:16px;line-height:1.6;color:#334155;">A new patient/contact enquir=
+[RESPONSE] CLIENT -> SERVER: y has been submitted from the website.</p><table role=3D"presentation" widt=
+[RESPONSE] CLIENT -> SERVER: h=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:col=
+[RESPONSE] CLIENT -> SERVER: lapse;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;"><tr><td=
+[RESPONSE] CLIENT -> SERVER:  style=3D"padding:14px 16px;background:#f8fafc;width:140px;font-weight:700;=
+[RESPONSE] CLIENT -> SERVER: color:#0f172a;border-bottom:1px solid #e2e8f0;">Name</td><td style=3D"paddi=
+[RESPONSE] CLIENT -> SERVER: ng:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;">Vivek Tiwari</=
+[RESPONSE] CLIENT -> SERVER: td></tr><tr><td style=3D"padding:14px 16px;background:#f8fafc;font-weight:7=
+[RESPONSE] CLIENT -> SERVER: 00;color:#0f172a;border-bottom:1px solid #e2e8f0;">Email</td><td style=3D"p=
+[RESPONSE] CLIENT -> SERVER: adding:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;"><a href=3D=
+[RESPONSE] CLIENT -> SERVER: "mailto:tvivek2021@gmail.com" style=3D"color:#0284c7;text-decoration:none;"=
+[RESPONSE] CLIENT -> SERVER: >tvivek2021@gmail.com</a></td></tr><tr><td style=3D"padding:14px 16px;backg=
+[RESPONSE] CLIENT -> SERVER: round:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px solid #e2e8f0=
+[RESPONSE] CLIENT -> SERVER: ;">Phone</td><td style=3D"padding:14px 16px;border-bottom:1px solid #e2e8f0=
+[RESPONSE] CLIENT -> SERVER: ;color:#334155;"><a href=3D"tel:9650789509" style=3D"color:#0284c7;text-dec=
+[RESPONSE] CLIENT -> SERVER: oration:none;">9650789509</a></td></tr><tr><td style=3D"padding:14px 16px;b=
+[RESPONSE] CLIENT -> SERVER: ackground:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px solid #e2=
+[RESPONSE] CLIENT -> SERVER: e8f0;">Subject</td><td style=3D"padding:14px 16px;border-bottom:1px solid #=
+[RESPONSE] CLIENT -> SERVER: e2e8f0;color:#334155;">Other</td></tr><tr><td style=3D"padding:14px 16px;ba=
+[RESPONSE] CLIENT -> SERVER: ckground:#f8fafc;font-weight:700;color:#0f172a;">Submitted</td><td style=3D=
+[RESPONSE] CLIENT -> SERVER: "padding:14px 16px;color:#334155;">10 Jul 2026, 12:06 PM</td></tr></table><=
+[RESPONSE] CLIENT -> SERVER: div style=3D"margin-top:22px;padding:18px 20px;background:#f8fafc;border-le=
+[RESPONSE] CLIENT -> SERVER: ft:4px solid #0eadae;border-radius:12px;"><div style=3D"font-weight:700;col=
+[RESPONSE] CLIENT -> SERVER: or:#0f172a;margin-bottom:8px;">Message</div><div style=3D"font-size:15px;li=
+[RESPONSE] CLIENT -> SERVER: ne-height:1.7;color:#334155;">testing</div></div><p style=3D"margin:22px 0 =
+[RESPONSE] CLIENT -> SERVER: 0;font-size:13px;color:#64748b;">You can reply directly to this email to co=
+[RESPONSE] CLIENT -> SERVER: ntact the sender.</p></td></tr><tr><td style=3D"background:#f8fafc;padding:=
+[RESPONSE] CLIENT -> SERVER: 18px 32px;color:#64748b;font-size:12px;text-align:center;border-top:1px sol=
+[RESPONSE] CLIENT -> SERVER: id #e2e8f0;">Dr. Manisha Gupta | Website Contact Notification</td></tr></ta=
+[RESPONSE] CLIENT -> SERVER: ble></td></tr></table></body></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_RMEk899HCYR9fHabCbqfqAfjwF11I7yfMdwMgopnOw--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 12:06:58.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-khtwf Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-khtwf Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<tvivek2021@gmail.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <tvivek2021@gmail.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 12:06:54 +0000
+[RESPONSE] CLIENT -> SERVER: To: Vivek Tiwari <tvivek2021@gmail.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: We received your message - Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER: Message-ID: <UIGob4vyf9gcC8jR3iXbVsrfly3vcf1iEVXIMYtIIg@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_UIGob4vyf9gcC8jR3iXbVsrfly3vcf1iEVXIMYtIIg"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_UIGob4vyf9gcC8jR3iXbVsrfly3vcf1iEVXIMYtIIg
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Dear Vivek Tiwari,
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Thank you for contacting Dr. Manisha Gupta. We have received your message and our team will get back to you within 24 hours.
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Your message:
+[RESPONSE] CLIENT -> SERVER: testing
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Regards,
+[RESPONSE] CLIENT -> SERVER: Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_UIGob4vyf9gcC8jR3iXbVsrfly3vcf1iEVXIMYtIIg
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:30px 32px;color:#ffffff;text-align:center;">=
+[RESPONSE] CLIENT -> SERVER: <div style=3D"font-size:13px;letter-spacing:1.8px;text-transform:uppercase;=
+[RESPONSE] CLIENT -> SERVER: color:#7dd3fc;font-weight:700;">Message Received</div><h1 style=3D"margin:9=
+[RESPONSE] CLIENT -> SERVER: px 0 0;font-size:28px;line-height:1.25;font-weight:700;">Thank you for cont=
+[RESPONSE] CLIENT -> SERVER: acting us</h1><p style=3D"margin:10px 0 0;color:#dff7fb;font-size:15px;">Dr=
+[RESPONSE] CLIENT -> SERVER: .. Manisha Gupta</p></td></tr><tr><td style=3D"padding:30px 32px;"><p style=
+[RESPONSE] CLIENT -> SERVER: =3D"margin:0 0 16px;font-size:16px;line-height:1.7;color:#334155;">Dear <st=
+[RESPONSE] CLIENT -> SERVER: rong>Vivek Tiwari</strong>,</p><p style=3D"margin:0 0 18px;font-size:16px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.7;color:#334155;">Thank you for reaching out. We have received=
+[RESPONSE] CLIENT -> SERVER:  your enquiry and our team will get back to you within 24 hours.</p><div st=
+[RESPONSE] CLIENT -> SERVER: yle=3D"padding:18px 20px;background:#f8fafc;border-left:4px solid #0eadae;b=
+[RESPONSE] CLIENT -> SERVER: order-radius:12px;margin:22px 0;"><div style=3D"font-size:13px;letter-spaci=
+[RESPONSE] CLIENT -> SERVER: ng:1px;text-transform:uppercase;color:#0f766e;font-weight:700;margin-bottom=
+[RESPONSE] CLIENT -> SERVER: :10px;">Your Submitted Message</div><div style=3D"font-size:15px;line-heigh=
+[RESPONSE] CLIENT -> SERVER: t:1.7;color:#334155;">testing</div></div><table role=3D"presentation" width=
+[RESPONSE] CLIENT -> SERVER: =3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:coll=
+[RESPONSE] CLIENT -> SERVER: apse;margin-top:18px;"><tr><td style=3D"padding:12px 0;color:#64748b;font-s=
+[RESPONSE] CLIENT -> SERVER: ize:14px;border-top:1px solid #e2e8f0;">Subject</td><td style=3D"padding:12=
+[RESPONSE] CLIENT -> SERVER: px 0;color:#0f172a;font-size:14px;font-weight:700;text-align:right;border-t=
+[RESPONSE] CLIENT -> SERVER: op:1px solid #e2e8f0;">Other</td></tr><tr><td style=3D"padding:12px 0;color=
+[RESPONSE] CLIENT -> SERVER: :#64748b;font-size:14px;border-top:1px solid #e2e8f0;">Submitted</td><td st=
+[RESPONSE] CLIENT -> SERVER: yle=3D"padding:12px 0;color:#0f172a;font-size:14px;font-weight:700;text-ali=
+[RESPONSE] CLIENT -> SERVER: gn:right;border-top:1px solid #e2e8f0;">10 Jul 2026, 12:06 PM</td></tr></ta=
+[RESPONSE] CLIENT -> SERVER: ble><p style=3D"margin:22px 0 0;font-size:15px;line-height:1.7;color:#33415=
+[RESPONSE] CLIENT -> SERVER: 5;">Regards,<br><strong>Dr. Manisha Gupta</strong></p></td></tr><tr><td sty=
+[RESPONSE] CLIENT -> SERVER: le=3D"background:#f8fafc;padding:18px 32px;color:#64748b;font-size:12px;tex=
+[RESPONSE] CLIENT -> SERVER: t-align:center;border-top:1px solid #e2e8f0;">This is an acknowledgement em=
+[RESPONSE] CLIENT -> SERVER: ail for your website enquiry.</td></tr></table></td></tr></table></body></h=
+[RESPONSE] CLIENT -> SERVER: tml>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_UIGob4vyf9gcC8jR3iXbVsrfly3vcf1iEVXIMYtIIg--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 12:16:34.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-gtrsg Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-gtrsg Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 12:16:30 +0000
+[RESPONSE] CLIENT -> SERVER: To: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: New contact enquiry: Other
+[RESPONSE] CLIENT -> SERVER: Message-ID: <wqakrjcm1bK3uJKdymUTsHhBAT45xNNK7EfRhLCRII4@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_wqakrjcm1bK3uJKdymUTsHhBAT45xNNK7EfRhLCRII4"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_wqakrjcm1bK3uJKdymUTsHhBAT45xNNK7EfRhLCRII4
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: New contact enquiry received:
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Name: Vivek Tiwari
+[RESPONSE] CLIENT -> SERVER: Email: tvivek2021@gmail.com
+[RESPONSE] CLIENT -> SERVER: Phone: 9650789509
+[RESPONSE] CLIENT -> SERVER: Subject: Other
+[RESPONSE] CLIENT -> SERVER: Submitted: 10 Jul 2026, 12:16 PM
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Message:
+[RESPONSE] CLIENT -> SERVER: testing
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_wqakrjcm1bK3uJKdymUTsHhBAT45xNNK7EfRhLCRII4
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:28px 32px;color:#ffffff;"><div style=3D"font=
+[RESPONSE] CLIENT -> SERVER: -size:13px;letter-spacing:1.8px;text-transform:uppercase;color:#7dd3fc;font=
+[RESPONSE] CLIENT -> SERVER: -weight:700;">New Enquiry</div><h1 style=3D"margin:8px 0 0;font-size:26px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.25;font-weight:700;">Contact form submission</h1><p style=3D"m=
+[RESPONSE] CLIENT -> SERVER: argin:10px 0 0;color:#dff7fb;font-size:15px;">Dr. Manisha Gupta website</p>=
+[RESPONSE] CLIENT -> SERVER: </td></tr><tr><td style=3D"padding:28px 32px;"><p style=3D"margin:0 0 20px;=
+[RESPONSE] CLIENT -> SERVER: font-size:16px;line-height:1.6;color:#334155;">A new patient/contact enquir=
+[RESPONSE] CLIENT -> SERVER: y has been submitted from the website.</p><table role=3D"presentation" widt=
+[RESPONSE] CLIENT -> SERVER: h=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:col=
+[RESPONSE] CLIENT -> SERVER: lapse;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;"><tr><td=
+[RESPONSE] CLIENT -> SERVER:  style=3D"padding:14px 16px;background:#f8fafc;width:140px;font-weight:700;=
+[RESPONSE] CLIENT -> SERVER: color:#0f172a;border-bottom:1px solid #e2e8f0;">Name</td><td style=3D"paddi=
+[RESPONSE] CLIENT -> SERVER: ng:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;">Vivek Tiwari</=
+[RESPONSE] CLIENT -> SERVER: td></tr><tr><td style=3D"padding:14px 16px;background:#f8fafc;font-weight:7=
+[RESPONSE] CLIENT -> SERVER: 00;color:#0f172a;border-bottom:1px solid #e2e8f0;">Email</td><td style=3D"p=
+[RESPONSE] CLIENT -> SERVER: adding:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;"><a href=3D=
+[RESPONSE] CLIENT -> SERVER: "mailto:tvivek2021@gmail.com" style=3D"color:#0284c7;text-decoration:none;"=
+[RESPONSE] CLIENT -> SERVER: >tvivek2021@gmail.com</a></td></tr><tr><td style=3D"padding:14px 16px;backg=
+[RESPONSE] CLIENT -> SERVER: round:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px solid #e2e8f0=
+[RESPONSE] CLIENT -> SERVER: ;">Phone</td><td style=3D"padding:14px 16px;border-bottom:1px solid #e2e8f0=
+[RESPONSE] CLIENT -> SERVER: ;color:#334155;"><a href=3D"tel:9650789509" style=3D"color:#0284c7;text-dec=
+[RESPONSE] CLIENT -> SERVER: oration:none;">9650789509</a></td></tr><tr><td style=3D"padding:14px 16px;b=
+[RESPONSE] CLIENT -> SERVER: ackground:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px solid #e2=
+[RESPONSE] CLIENT -> SERVER: e8f0;">Subject</td><td style=3D"padding:14px 16px;border-bottom:1px solid #=
+[RESPONSE] CLIENT -> SERVER: e2e8f0;color:#334155;">Other</td></tr><tr><td style=3D"padding:14px 16px;ba=
+[RESPONSE] CLIENT -> SERVER: ckground:#f8fafc;font-weight:700;color:#0f172a;">Submitted</td><td style=3D=
+[RESPONSE] CLIENT -> SERVER: "padding:14px 16px;color:#334155;">10 Jul 2026, 12:16 PM</td></tr></table><=
+[RESPONSE] CLIENT -> SERVER: div style=3D"margin-top:22px;padding:18px 20px;background:#f8fafc;border-le=
+[RESPONSE] CLIENT -> SERVER: ft:4px solid #0eadae;border-radius:12px;"><div style=3D"font-weight:700;col=
+[RESPONSE] CLIENT -> SERVER: or:#0f172a;margin-bottom:8px;">Message</div><div style=3D"font-size:15px;li=
+[RESPONSE] CLIENT -> SERVER: ne-height:1.7;color:#334155;">testing</div></div><p style=3D"margin:22px 0 =
+[RESPONSE] CLIENT -> SERVER: 0;font-size:13px;color:#64748b;">You can reply directly to this email to co=
+[RESPONSE] CLIENT -> SERVER: ntact the sender.</p></td></tr><tr><td style=3D"background:#f8fafc;padding:=
+[RESPONSE] CLIENT -> SERVER: 18px 32px;color:#64748b;font-size:12px;text-align:center;border-top:1px sol=
+[RESPONSE] CLIENT -> SERVER: id #e2e8f0;">Dr. Manisha Gupta | Website Contact Notification</td></tr></ta=
+[RESPONSE] CLIENT -> SERVER: ble></td></tr></table></body></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_wqakrjcm1bK3uJKdymUTsHhBAT45xNNK7EfRhLCRII4--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 12:16:39.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-kppcq Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-kppcq Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<tvivek2021@gmail.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <tvivek2021@gmail.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 12:16:34 +0000
+[RESPONSE] CLIENT -> SERVER: To: Vivek Tiwari <tvivek2021@gmail.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: We received your message - Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER: Message-ID: <c9784N5WO9WzpcfvnKabCOFjKNOqVwJSd1ZRLMgfNA@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_c9784N5WO9WzpcfvnKabCOFjKNOqVwJSd1ZRLMgfNA"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_c9784N5WO9WzpcfvnKabCOFjKNOqVwJSd1ZRLMgfNA
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Dear Vivek Tiwari,
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Thank you for contacting Dr. Manisha Gupta. We have received your message and our team will get back to you within 24 hours.
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Your message:
+[RESPONSE] CLIENT -> SERVER: testing
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Regards,
+[RESPONSE] CLIENT -> SERVER: Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_c9784N5WO9WzpcfvnKabCOFjKNOqVwJSd1ZRLMgfNA
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:30px 32px;color:#ffffff;text-align:center;">=
+[RESPONSE] CLIENT -> SERVER: <div style=3D"font-size:13px;letter-spacing:1.8px;text-transform:uppercase;=
+[RESPONSE] CLIENT -> SERVER: color:#7dd3fc;font-weight:700;">Message Received</div><h1 style=3D"margin:9=
+[RESPONSE] CLIENT -> SERVER: px 0 0;font-size:28px;line-height:1.25;font-weight:700;">Thank you for cont=
+[RESPONSE] CLIENT -> SERVER: acting us</h1><p style=3D"margin:10px 0 0;color:#dff7fb;font-size:15px;">Dr=
+[RESPONSE] CLIENT -> SERVER: .. Manisha Gupta</p></td></tr><tr><td style=3D"padding:30px 32px;"><p style=
+[RESPONSE] CLIENT -> SERVER: =3D"margin:0 0 16px;font-size:16px;line-height:1.7;color:#334155;">Dear <st=
+[RESPONSE] CLIENT -> SERVER: rong>Vivek Tiwari</strong>,</p><p style=3D"margin:0 0 18px;font-size:16px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.7;color:#334155;">Thank you for reaching out. We have received=
+[RESPONSE] CLIENT -> SERVER:  your enquiry and our team will get back to you within 24 hours.</p><div st=
+[RESPONSE] CLIENT -> SERVER: yle=3D"padding:18px 20px;background:#f8fafc;border-left:4px solid #0eadae;b=
+[RESPONSE] CLIENT -> SERVER: order-radius:12px;margin:22px 0;"><div style=3D"font-size:13px;letter-spaci=
+[RESPONSE] CLIENT -> SERVER: ng:1px;text-transform:uppercase;color:#0f766e;font-weight:700;margin-bottom=
+[RESPONSE] CLIENT -> SERVER: :10px;">Your Submitted Message</div><div style=3D"font-size:15px;line-heigh=
+[RESPONSE] CLIENT -> SERVER: t:1.7;color:#334155;">testing</div></div><table role=3D"presentation" width=
+[RESPONSE] CLIENT -> SERVER: =3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:coll=
+[RESPONSE] CLIENT -> SERVER: apse;margin-top:18px;"><tr><td style=3D"padding:12px 0;color:#64748b;font-s=
+[RESPONSE] CLIENT -> SERVER: ize:14px;border-top:1px solid #e2e8f0;">Subject</td><td style=3D"padding:12=
+[RESPONSE] CLIENT -> SERVER: px 0;color:#0f172a;font-size:14px;font-weight:700;text-align:right;border-t=
+[RESPONSE] CLIENT -> SERVER: op:1px solid #e2e8f0;">Other</td></tr><tr><td style=3D"padding:12px 0;color=
+[RESPONSE] CLIENT -> SERVER: :#64748b;font-size:14px;border-top:1px solid #e2e8f0;">Submitted</td><td st=
+[RESPONSE] CLIENT -> SERVER: yle=3D"padding:12px 0;color:#0f172a;font-size:14px;font-weight:700;text-ali=
+[RESPONSE] CLIENT -> SERVER: gn:right;border-top:1px solid #e2e8f0;">10 Jul 2026, 12:16 PM</td></tr></ta=
+[RESPONSE] CLIENT -> SERVER: ble><p style=3D"margin:22px 0 0;font-size:15px;line-height:1.7;color:#33415=
+[RESPONSE] CLIENT -> SERVER: 5;">Regards,<br><strong>Dr. Manisha Gupta</strong></p></td></tr><tr><td sty=
+[RESPONSE] CLIENT -> SERVER: le=3D"background:#f8fafc;padding:18px 32px;color:#64748b;font-size:12px;tex=
+[RESPONSE] CLIENT -> SERVER: t-align:center;border-top:1px solid #e2e8f0;">This is an acknowledgement em=
+[RESPONSE] CLIENT -> SERVER: ail for your website enquiry.</td></tr></table></td></tr></table></body></h=
+[RESPONSE] CLIENT -> SERVER: tml>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_c9784N5WO9WzpcfvnKabCOFjKNOqVwJSd1ZRLMgfNA--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 12:17:50.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: manisha_guptaus@yahoo.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-tbwpn Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-tbwpn Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 12:17:46 +0000
+[RESPONSE] CLIENT -> SERVER: To: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: New contact enquiry: Appointment Request
+[RESPONSE] CLIENT -> SERVER: Message-ID: <Ye8p806pDZ2kS92KA7rUOOUKzhSRH0enSbG7tYFR0A@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_Ye8p806pDZ2kS92KA7rUOOUKzhSRH0enSbG7tYFR0A"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_Ye8p806pDZ2kS92KA7rUOOUKzhSRH0enSbG7tYFR0A
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: New contact enquiry received:
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Name: Vivek Tiwari
+[RESPONSE] CLIENT -> SERVER: Email: tvivek2021@gmail.com
+[RESPONSE] CLIENT -> SERVER: Phone: 9650789509
+[RESPONSE] CLIENT -> SERVER: Subject: Appointment Request
+[RESPONSE] CLIENT -> SERVER: Submitted: 10 Jul 2026, 12:17 PM
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Message:
+[RESPONSE] CLIENT -> SERVER: laste time test ma'am😊
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_Ye8p806pDZ2kS92KA7rUOOUKzhSRH0enSbG7tYFR0A
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:28px 32px;color:#ffffff;"><div style=3D"font=
+[RESPONSE] CLIENT -> SERVER: -size:13px;letter-spacing:1.8px;text-transform:uppercase;color:#7dd3fc;font=
+[RESPONSE] CLIENT -> SERVER: -weight:700;">New Enquiry</div><h1 style=3D"margin:8px 0 0;font-size:26px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.25;font-weight:700;">Contact form submission</h1><p style=3D"m=
+[RESPONSE] CLIENT -> SERVER: argin:10px 0 0;color:#dff7fb;font-size:15px;">Dr. Manisha Gupta website</p>=
+[RESPONSE] CLIENT -> SERVER: </td></tr><tr><td style=3D"padding:28px 32px;"><p style=3D"margin:0 0 20px;=
+[RESPONSE] CLIENT -> SERVER: font-size:16px;line-height:1.6;color:#334155;">A new patient/contact enquir=
+[RESPONSE] CLIENT -> SERVER: y has been submitted from the website.</p><table role=3D"presentation" widt=
+[RESPONSE] CLIENT -> SERVER: h=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:col=
+[RESPONSE] CLIENT -> SERVER: lapse;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;"><tr><td=
+[RESPONSE] CLIENT -> SERVER:  style=3D"padding:14px 16px;background:#f8fafc;width:140px;font-weight:700;=
+[RESPONSE] CLIENT -> SERVER: color:#0f172a;border-bottom:1px solid #e2e8f0;">Name</td><td style=3D"paddi=
+[RESPONSE] CLIENT -> SERVER: ng:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;">Vivek Tiwari</=
+[RESPONSE] CLIENT -> SERVER: td></tr><tr><td style=3D"padding:14px 16px;background:#f8fafc;font-weight:7=
+[RESPONSE] CLIENT -> SERVER: 00;color:#0f172a;border-bottom:1px solid #e2e8f0;">Email</td><td style=3D"p=
+[RESPONSE] CLIENT -> SERVER: adding:14px 16px;border-bottom:1px solid #e2e8f0;color:#334155;"><a href=3D=
+[RESPONSE] CLIENT -> SERVER: "mailto:tvivek2021@gmail.com" style=3D"color:#0284c7;text-decoration:none;"=
+[RESPONSE] CLIENT -> SERVER: >tvivek2021@gmail.com</a></td></tr><tr><td style=3D"padding:14px 16px;backg=
+[RESPONSE] CLIENT -> SERVER: round:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px solid #e2e8f0=
+[RESPONSE] CLIENT -> SERVER: ;">Phone</td><td style=3D"padding:14px 16px;border-bottom:1px solid #e2e8f0=
+[RESPONSE] CLIENT -> SERVER: ;color:#334155;"><a href=3D"tel:9650789509" style=3D"color:#0284c7;text-dec=
+[RESPONSE] CLIENT -> SERVER: oration:none;">9650789509</a></td></tr><tr><td style=3D"padding:14px 16px;b=
+[RESPONSE] CLIENT -> SERVER: ackground:#f8fafc;font-weight:700;color:#0f172a;border-bottom:1px solid #e2=
+[RESPONSE] CLIENT -> SERVER: e8f0;">Subject</td><td style=3D"padding:14px 16px;border-bottom:1px solid #=
+[RESPONSE] CLIENT -> SERVER: e2e8f0;color:#334155;">Appointment Request</td></tr><tr><td style=3D"paddin=
+[RESPONSE] CLIENT -> SERVER: g:14px 16px;background:#f8fafc;font-weight:700;color:#0f172a;">Submitted</t=
+[RESPONSE] CLIENT -> SERVER: d><td style=3D"padding:14px 16px;color:#334155;">10 Jul 2026, 12:17 PM</td>=
+[RESPONSE] CLIENT -> SERVER: </tr></table><div style=3D"margin-top:22px;padding:18px 20px;background:#f8=
+[RESPONSE] CLIENT -> SERVER: fafc;border-left:4px solid #0eadae;border-radius:12px;"><div style=3D"font-=
+[RESPONSE] CLIENT -> SERVER: weight:700;color:#0f172a;margin-bottom:8px;">Message</div><div style=3D"fon=
+[RESPONSE] CLIENT -> SERVER: t-size:15px;line-height:1.7;color:#334155;">laste time test ma&#039;am=
+[RESPONSE] CLIENT -> SERVER: =F0=9F=98=8A</div></div><p style=3D"margin:22px 0 0;font-size:13px;color:#6=
+[RESPONSE] CLIENT -> SERVER: 4748b;">You can reply directly to this email to contact the sender.</p></td=
+[RESPONSE] CLIENT -> SERVER: ></tr><tr><td style=3D"background:#f8fafc;padding:18px 32px;color:#64748b;f=
+[RESPONSE] CLIENT -> SERVER: ont-size:12px;text-align:center;border-top:1px solid #e2e8f0;">Dr. Manisha =
+[RESPONSE] CLIENT -> SERVER: Gupta | Website Contact Notification</td></tr></table></td></tr></table></b=
+[RESPONSE] CLIENT -> SERVER: ody></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_Ye8p806pDZ2kS92KA7rUOOUKzhSRH0enSbG7tYFR0A--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+
+
+================================================================================
+[2026-07-10 12:17:54.000000] SMTP Email Log - PHPMailer
+================================================================================
+Recipient: tvivek2021@gmail.com
+Status: SUCCESS ✓
+
+--- SMTP TRANSCRIPT ---
+[RESPONSE] Connection: opening to smtp.mail.yahoo.com:587, timeout=20, options=array()
+[RESPONSE] Connection: opened
+[RESPONSE] SERVER -> CLIENT: 220 smtp.mail.yahoo.com ESMTP ready
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-6w2gg Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 STARTTLS
+[RESPONSE] CLIENT -> SERVER: STARTTLS
+[RESPONSE] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[RESPONSE] CLIENT -> SERVER: EHLO yahoo.com
+[RESPONSE] SERVER -> CLIENT: 250-hermes--production-sg3-847cd67bd4-6w2gg Hello yahoo.com [190.92.174.34])
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SIZE 41697280
+250 AUTH PLAIN LOGIN XOAUTH2 OAUTHBEARER
+[RESPONSE] CLIENT -> SERVER: AUTH LOGIN
+[RESPONSE] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[RESPONSE] CLIENT -> SERVER: [credentials hidden]
+[RESPONSE] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+[RESPONSE] CLIENT -> SERVER: MAIL FROM:<manisha_guptaus@yahoo.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.0 Sender <manisha_guptaus@yahoo.com> OK
+[RESPONSE] CLIENT -> SERVER: RCPT TO:<tvivek2021@gmail.com>
+[RESPONSE] SERVER -> CLIENT: 250 2.1.5 Recipient <tvivek2021@gmail.com> OK
+[RESPONSE] CLIENT -> SERVER: DATA
+[RESPONSE] SERVER -> CLIENT: 354 Ok Send data ending with <CRLF>.<CRLF>
+[RESPONSE] CLIENT -> SERVER: Date: Fri, 10 Jul 2026 12:17:50 +0000
+[RESPONSE] CLIENT -> SERVER: To: Vivek Tiwari <tvivek2021@gmail.com>
+[RESPONSE] CLIENT -> SERVER: From: "Dr. Manisha Gupta" <manisha_guptaus@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: Subject: We received your message - Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER: Message-ID: <VZ8mXETwKWU4KMlpc462xEEd4TF8tjgh39MmmSpJ1kw@yahoo.com>
+[RESPONSE] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[RESPONSE] CLIENT -> SERVER: MIME-Version: 1.0
+[RESPONSE] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[RESPONSE] CLIENT -> SERVER:  boundary="b1=_VZ8mXETwKWU4KMlpc462xEEd4TF8tjgh39MmmSpJ1kw"
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_VZ8mXETwKWU4KMlpc462xEEd4TF8tjgh39MmmSpJ1kw
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Dear Vivek Tiwari,
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Thank you for contacting Dr. Manisha Gupta. We have received your message and our team will get back to you within 24 hours.
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Your message:
+[RESPONSE] CLIENT -> SERVER: laste time test ma'am😊
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: Regards,
+[RESPONSE] CLIENT -> SERVER: Dr. Manisha Gupta
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_VZ8mXETwKWU4KMlpc462xEEd4TF8tjgh39MmmSpJ1kw
+[RESPONSE] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+[RESPONSE] CLIENT -> SERVER: Content-Transfer-Encoding: quoted-printable
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: <!doctype html><html><body style=3D"margin:0;padding:0;background:#eef6f8;f=
+[RESPONSE] CLIENT -> SERVER: ont-family:Arial,Helvetica,sans-serif;color:#1f2937;"><table role=3D"presen=
+[RESPONSE] CLIENT -> SERVER: tation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgro=
+[RESPONSE] CLIENT -> SERVER: und:#eef6f8;padding:28px 12px;"><tr><td align=3D"center"><table role=3D"pre=
+[RESPONSE] CLIENT -> SERVER: sentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+[RESPONSE] CLIENT -> SERVER: width:640px;background:#ffffff;border-radius:18px;overflow:hidden;border:1p=
+[RESPONSE] CLIENT -> SERVER: x solid #dbeafe;box-shadow:0 14px 38px rgba(15,23,42,0.10);"><tr><td style=
+[RESPONSE] CLIENT -> SERVER: =3D"background:#06364b;padding:30px 32px;color:#ffffff;text-align:center;">=
+[RESPONSE] CLIENT -> SERVER: <div style=3D"font-size:13px;letter-spacing:1.8px;text-transform:uppercase;=
+[RESPONSE] CLIENT -> SERVER: color:#7dd3fc;font-weight:700;">Message Received</div><h1 style=3D"margin:9=
+[RESPONSE] CLIENT -> SERVER: px 0 0;font-size:28px;line-height:1.25;font-weight:700;">Thank you for cont=
+[RESPONSE] CLIENT -> SERVER: acting us</h1><p style=3D"margin:10px 0 0;color:#dff7fb;font-size:15px;">Dr=
+[RESPONSE] CLIENT -> SERVER: .. Manisha Gupta</p></td></tr><tr><td style=3D"padding:30px 32px;"><p style=
+[RESPONSE] CLIENT -> SERVER: =3D"margin:0 0 16px;font-size:16px;line-height:1.7;color:#334155;">Dear <st=
+[RESPONSE] CLIENT -> SERVER: rong>Vivek Tiwari</strong>,</p><p style=3D"margin:0 0 18px;font-size:16px;l=
+[RESPONSE] CLIENT -> SERVER: ine-height:1.7;color:#334155;">Thank you for reaching out. We have received=
+[RESPONSE] CLIENT -> SERVER:  your enquiry and our team will get back to you within 24 hours.</p><div st=
+[RESPONSE] CLIENT -> SERVER: yle=3D"padding:18px 20px;background:#f8fafc;border-left:4px solid #0eadae;b=
+[RESPONSE] CLIENT -> SERVER: order-radius:12px;margin:22px 0;"><div style=3D"font-size:13px;letter-spaci=
+[RESPONSE] CLIENT -> SERVER: ng:1px;text-transform:uppercase;color:#0f766e;font-weight:700;margin-bottom=
+[RESPONSE] CLIENT -> SERVER: :10px;">Your Submitted Message</div><div style=3D"font-size:15px;line-heigh=
+[RESPONSE] CLIENT -> SERVER: t:1.7;color:#334155;">laste time test ma&#039;am=F0=9F=98=8A</div></div><ta=
+[RESPONSE] CLIENT -> SERVER: ble role=3D"presentation" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0=
+[RESPONSE] CLIENT -> SERVER: " style=3D"border-collapse:collapse;margin-top:18px;"><tr><td style=3D"padd=
+[RESPONSE] CLIENT -> SERVER: ing:12px 0;color:#64748b;font-size:14px;border-top:1px solid #e2e8f0;">Subj=
+[RESPONSE] CLIENT -> SERVER: ect</td><td style=3D"padding:12px 0;color:#0f172a;font-size:14px;font-weigh=
+[RESPONSE] CLIENT -> SERVER: t:700;text-align:right;border-top:1px solid #e2e8f0;">Appointment Request</=
+[RESPONSE] CLIENT -> SERVER: td></tr><tr><td style=3D"padding:12px 0;color:#64748b;font-size:14px;border=
+[RESPONSE] CLIENT -> SERVER: -top:1px solid #e2e8f0;">Submitted</td><td style=3D"padding:12px 0;color:#0=
+[RESPONSE] CLIENT -> SERVER: f172a;font-size:14px;font-weight:700;text-align:right;border-top:1px solid =
+[RESPONSE] CLIENT -> SERVER: #e2e8f0;">10 Jul 2026, 12:17 PM</td></tr></table><p style=3D"margin:22px 0 =
+[RESPONSE] CLIENT -> SERVER: 0;font-size:15px;line-height:1.7;color:#334155;">Regards,<br><strong>Dr. Ma=
+[RESPONSE] CLIENT -> SERVER: nisha Gupta</strong></p></td></tr><tr><td style=3D"background:#f8fafc;paddi=
+[RESPONSE] CLIENT -> SERVER: ng:18px 32px;color:#64748b;font-size:12px;text-align:center;border-top:1px =
+[RESPONSE] CLIENT -> SERVER: solid #e2e8f0;">This is an acknowledgement email for your website enquiry.<=
+[RESPONSE] CLIENT -> SERVER: /td></tr></table></td></tr></table></body></html>
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: --b1=_VZ8mXETwKWU4KMlpc462xEEd4TF8tjgh39MmmSpJ1kw--
+[RESPONSE] CLIENT -> SERVER:
+[RESPONSE] CLIENT -> SERVER: .
+[RESPONSE] SERVER -> CLIENT: 250 OK , completed
+[RESPONSE] CLIENT -> SERVER: QUIT
+[RESPONSE] SERVER -> CLIENT: 221 Service Closing transmission
+[RESPONSE] Connection: closed
+

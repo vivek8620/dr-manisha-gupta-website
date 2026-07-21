@@ -1,0 +1,61 @@
+RewriteEngine On
+Options -MultiViews
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(?:css|js|jpe?g|png|gif|webp|svg|ico)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  <FilesMatch "\.(?:jpe?g|png|gif|webp|svg|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
+
+# SEO files
+RewriteRule ^robots\.txt$ robots.php [L]
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+# Redirect direct .php page requests to extensionless URLs.
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.php[\s?] [NC]
+RewriteRule ^index\.php$ /%1 [R=301,L,NE]
+
+RewriteCond %{THE_REQUEST} \s/+(.*/)?article\.php\?slug=([^&\s]+) [NC]
+RewriteRule ^article\.php$ /%1blogs? [R=301,L,NE]
+
+RewriteCond %{THE_REQUEST} \s/+(.*/)?blogdetails\.php\?slug=([^&\s]+) [NC]
+RewriteRule ^blogdetails\.php$ /%1blog/%2? [R=301,L,NE]
+
+RewriteCond %{THE_REQUEST} \s/+(.*/)?health-article\.php\?slug=([^&\s]+) [NC]
+RewriteRule ^health-article\.php$ /%1health-article/%2? [R=301,L,NE]
+
+RewriteCond %{THE_REQUEST} \s/+(.+)\.php[\s?] [NC]
+RewriteRule ^(.+)\.php$ /%1 [R=301,L,NE]
+
+# SEO-friendly blog URLs:
+# /blog/managing-blood-sugar-naturally -> blogdetails.php?slug=managing-blood-sugar-naturally
+RewriteRule ^blog/([a-zA-Z0-9-]+)/?$ blogdetails.php?slug=$1 [L,QSA]
+RewriteRule ^health-article/([a-zA-Z0-9-]+)/?$ health-article.php?slug=$1 [L,QSA]
+
+# Old article.php links redirect to the blogs page.
+RewriteCond %{QUERY_STRING} ^slug=(.+)$
+RewriteRule ^article\.php$ blogs? [R=301,L,NE]
+
+# Old blog.php listing redirect, if accessed directly.
+# Enable only if needed:
+# RewriteRule ^blog\.php$ blogs [R=301,L]
+
+# Serve extensionless URLs from matching PHP files.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^/]+)$ $1.php [L]
